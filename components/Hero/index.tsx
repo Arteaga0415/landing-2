@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -19,20 +20,16 @@ const Hero = () => {
                 🔥 Solid - A Complete SaaS Web Template
               </h4> */}
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Free Next.js Template for {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  SaaS
-                </span>
+                Bienvenidos a Ingeniería y Telecomunicaciones
               </h1>
               <p>
-                Solid Pro - Packed with all the key integrations you need for
-                swift SaaS startup launch, including - Auth, Database, Sanity
-                Blog, Essential Components, Pages and More. Built-winth -
-                Next.js 13, React 18 and TypeScript.
+                Es una empresa innovadora en el área de las telecomunicaciones y energías renovables, 
+                solar y eólica. Siendo pionera en la región del llano, brindando una solución de 
+                conectividad para el sector Empresarial.
               </p>
 
               <div className="mt-10">
-                <form onSubmit={handleSubmit}>
+                {/* <form onSubmit={handleSubmit}>
                   <div className="flex flex-wrap gap-5">
                     <input
                       value={email}
@@ -48,7 +45,25 @@ const Hero = () => {
                       Get Started
                     </button>
                   </div>
-                </form>
+                </form> */}
+                <div className="flex flex-row gap-5">
+                  <Link href={'/support'}>
+                    <button
+                      aria-label="get started button"
+                      className="flex rounded-full bg-primary px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primary dark:hover:bg-primaryho"
+                    >
+                      Contacto
+                    </button>
+                  </Link>
+                  <Link href={'/services'}>
+                  <button
+                    aria-label="get started button"
+                    className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-btndark dark:hover:bg-primaryho"
+                  >
+                    Nuestros Servicios
+                  </button>
+                  </Link>
+                </div>
               </div>
             </div>
 

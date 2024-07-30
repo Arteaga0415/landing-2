@@ -15,7 +15,7 @@ import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "Ingeniería y Telecomunicaciones HL SAS",
-  description: "Es una empresa innovadora en el area de las telecomuniciones y energias renovables, solar y eolica. Siendo pionera en la region del llano, brindando una solucion de conectividad para el sector Empresarial.",
+  description: "Es una empresa innovadora en el área de las telecomunicaciones y energías renovables, solar y eólica. Siendo pionera en la región del llano, brindando una solución de conectividad para el sector Empresarial.",
 };
 
 export default function Home() {
