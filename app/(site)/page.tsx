@@ -14,9 +14,8 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-  description: "This is Home for Solid Pro",
-  // other metadata
+  title: "Ingeniería y Telecomunicaciones HL SAS",
+  description: "Es una empresa innovadora en el area de las telecomuniciones y energias renovables, solar y eolica. Siendo pionera en la region del llano, brindando una solucion de conectividad para el sector Empresarial.",
 };
 
 export default function Home() {
