@@ -34,7 +34,7 @@ const featuresData: Feature[] = [
     icon: "/icons-svg/link-1.svg",
     title: "Enlaces punto a punto",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "El servicio de enlaces Punto a Punto de Ingernet, es una solución destinada a clientes con necesidades de interconexión para la transmisión de Datos, Voz y Video.",
   },
   {
     id: 6,
@@ -44,11 +44,18 @@ const featuresData: Feature[] = [
       "Prestamos servicios de suministro, instalación y mantenimiento de equipos para granjas de energía solar.",
   },
   {
-    id: 6,
+    id: 7,
     icon: "/icons-svg/wind-mill-2.svg",
     title: "Energía Eólica",
     description:
       "Prestamos servicios de suministro, instalación y mantenimiento de equipos para granjas de energía eólica.",
+  },
+  {
+    id: 8,
+    icon: "/icons-svg/antena-2.svg",
+    title: "IPV 6",
+    description:
+      "Diseñamos y ejecutamos pruebas piloto para adopción de esta tecnología en ambientes multiplataforma y apoyamos en la configuración y puesta a punta de equipos de red, entornos y plataformas e infraestructuras TI con IPv6",
   },
 ];
 
