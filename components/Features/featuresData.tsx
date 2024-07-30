@@ -3,45 +3,52 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    icon: "/icons-svg/equipos.svg",
+    title: "Suministros De Equipos",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Prestamos el servicio de suministro, configuración instalación y capacitación de equipos de cómputo y tecnológicos.",
   },
   {
     id: 2,
-    icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    icon: "/icons-svg/antena-1.svg",
+    title: "Infraestructura",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Ofrecemos servicios de construccion de antenas",
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    icon: "/icons-svg/internet-1.svg",
+    title: "Conectividad Remota",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Las empresas de hoy deben pensar en conectar cada una de sus sedes para operar en zonas geográficas amplias.",
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    icon: "/icons-svg/security-camera-1.svg",
+    title: "Camaras de Vigilancia y Monitoreo",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Brindamos soluciones de cámaras de vigilancia y monitoreo para casas, empresas, entidades públicas, negocios etc.",
   },
   {
     id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    icon: "/icons-svg/link-1.svg",
+    title: "Enlaces punto a punto",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
+    icon: "/icons-svg/solar-energy-1.svg",
+    title: "Energía Solar",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Prestamos servicios de suministro, instalación y mantenimiento de equipos para granjas de energía solar.",
+  },
+  {
+    id: 6,
+    icon: "/icons-svg/wind-mill-2.svg",
+    title: "Energía Eólica",
+    description:
+      "Prestamos servicios de suministro, instalación y mantenimiento de equipos para granjas de energía eólica.",
   },
 ];
 
