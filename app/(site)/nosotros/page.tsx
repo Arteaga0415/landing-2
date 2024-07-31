@@ -3,7 +3,7 @@ import Nosotros from "@/components/Nosotros";
 
 export const metadata: Metadata = {
   title: "Quiénes Somos",
-  description: "INGENIERIA E INFORMATICA E.A.T, es una empresa privada que está conformada por un grupo de ingenieros y especialistas en Telecomunicaciones; con más de 18 años de experiencia en el área de las comunicaciones, brindamos los mejores estándares de calidad y servicios",
+  description: "Ingeniería y Telecomunicaciones HL SAS, es una empresa privada que está conformada por un grupo de ingenieros y especialistas en Telecomunicaciones; con más de 18 años de experiencia en el área de las comunicaciones, brindamos los mejores estándares de calidad y servicios",
 };
 
 export default function NosotrosPage () {
