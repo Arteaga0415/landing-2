@@ -12,6 +12,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import Presentation from "@/components/Presentation";
 
 export const metadata: Metadata = {
   title: "Ingeniería y Telecomunicaciones HL SAS",
@@ -24,11 +25,12 @@ export default function Home() {
       <Hero />
       {/* <Brands /> */}
       <Feature />
-      <About />
-      <FeaturesTab />
-      <FunFact />
+      <Presentation />
+      {/* <About /> */}
+      {/* <FeaturesTab /> */}
+      {/* <FunFact /> */}
       <Integration />
-      <CTA />
+      {/* <CTA /> */}
       <FAQ />
       <Testimonial />
       <Pricing />

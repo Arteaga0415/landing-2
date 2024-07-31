@@ -2,12 +2,14 @@ import Image from "next/image"
 
 const Presentation = () => {
   return (
-    <Image 
-      src={'/imagenes/Hoja Membretada Encabezado PNG.png'}
-      width={2484}
-      height={783}
-      alt="Hoja Membretada Encabezado"
-    />
+    <div className="px-10 md:px-20">
+      <Image 
+        src={'/imagenes/Hoja Membretada Encabezado PNG.png'}
+        width={2484}
+        height={783}
+        alt="Hoja Membretada Encabezado"
+      />
+    </div>
   )
 }
 
