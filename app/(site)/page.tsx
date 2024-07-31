@@ -25,17 +25,24 @@ export default function Home() {
       <Hero />
       {/* <Brands /> */}
       <Feature />
-      <Presentation />
+      <div className="pb-20">
+        <Presentation />
+      </div>
       {/* <About /> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
       <Integration />
+      {/* Se puede Utilizar */}
       {/* <CTA /> */}
-      <FAQ />
-      <Testimonial />
-      <Pricing />
+      {/* Se Utilizo */}
+      {/* <FAQ /> */}
+      {/* Se puede Utilizar */}
+      {/* <Testimonial /> */}
+      {/* Se Utilizo */}
+      {/* <Pricing /> */}
+      {/* Se Utilizo */}
       <Contact />
-      <Blog />
+      {/* <Blog /> */}
     </main>
   );
 }
