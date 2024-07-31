@@ -1,6 +1,7 @@
 "use client";
 import { Blog } from "@/types/blog";
 import { motion } from "framer-motion";
+import { Section } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +10,7 @@ const MisionItem = ({ mision }: { mision: Blog[] }) => {
   // const { mainImageVision, titleVision, metadataVision } = mision[1];
 
   return (
-    <>
+    <section id="mision-vision" className="overflow-hidden pb-20 lg:pb-25 xl:pb-30 lg:px-20" >
       <motion.div
         variants={{
           hidden: {
@@ -38,7 +39,7 @@ const MisionItem = ({ mision }: { mision: Blog[] }) => {
           </div>
         ))}
       </motion.div>
-    </>
+    </section>
   );
 };
 
