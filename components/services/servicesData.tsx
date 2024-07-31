@@ -7,56 +7,79 @@ const servicesData: Services[] = [
     title: "Suministros De Equipos",
     description:
       "Prestamos el servicio de suministro, configuración instalación y capacitación de equipos de cómputo y tecnológicos.",
-  },
+    description_long: "Prestamos el servicio de suministro, configuración instalación y capacitación de equipos de cómputo y tecnológicos.",
+    img_a: "/imagenes/equipos-computo-2.jpg",
+    img_b: "/imagenes/equipos-computo-3.jpg",
+    },
   {
     id: 2,
     img: "/imagenes/antena-2.jpg",
     title: "Infraestructura",
     description:
       "Ofrecemos servicios de construccion de antenas.",
-  },
+    description_long: "Ofrecemos servicios de construccion de antenas.",
+    img_a: "/imagenes/antena-1.jpg",
+    img_b: "/imagenes/antena-3.jpg",
+    },
   {
     id: 3,
     img: "/imagenes/conectividad-3.jpg",
     title: "Conectividad Remota",
-    description:
-      "Las empresas de hoy deben pensar en conectar cada una de sus sedes para operar en zonas geográficas amplias.",
-  },
+    description: "Las empresas de hoy deben pensar en conectar cada una de sus sedes para operar en zonas geográficas amplias.",
+    description_long: "Ofrecemos servicios de construccion de antenas.",
+    img_a: "/imagenes/conectividad-1.jpg",
+    img_b: "/imagenes/conectividad-2.jpg",
+    },
   {
     id: 4,
     img: "/imagenes/security-camera-1.jpg",
     title: "Camaras de Vigilancia y Monitoreo",
     description:
       "Brindamos soluciones de cámaras de vigilancia y monitoreo para casas, empresas, entidades públicas, negocios etc.",
-  },
+    description_long: "Ofrecemos servicios de construccion de antenas.",
+    img_a: "/imagenes/security-camera-2.jpg",
+    img_b: "/imagenes/security-camera-3.jpg",
+    },
   {
     id: 5,
     img: "/imagenes/enlace.jpg",
     title: "Enlaces punto a punto",
     description:
       "El servicio de enlaces Punto a Punto de Ingernet, es una solución destinada a clientes con necesidades de interconexión para la transmisión de Datos, Voz y Video.",
-  },
+    description_long: "Ofrecemos servicios de construccion de antenas.",
+    img_a: "/imagenes/antena-1.jpg",
+    img_b: "/imagenes/antena-3.jpg",
+    },
   {
     id: 6,
     img: "/imagenes/solar-energy-6.jpg",
     title: "Energía Solar",
     description:
       "Prestamos servicios de suministro, instalación y mantenimiento de equipos para granjas de energía solar.",
-  },
+    description_long: "Ofrecemos servicios de construccion de antenas.",
+    img_a: "/imagenes/solar-energy-1.jpg",
+    img_b: "/imagenes/solar-energy-3.jpg",
+    },
   {
     id: 7,
     img: "/imagenes/wind-energy-1.jpg",
     title: "Energía Eólica",
     description:
       "Prestamos servicios de suministro, instalación y mantenimiento de equipos para granjas de energía eólica.",
-  },
+    description_long: "Ofrecemos servicios de construccion de antenas.",
+    img_a: "/imagenes/wind-energy-2.jpg",
+    img_b: "/imagenes/wind-energy-3.jpg",
+    },
   {
     id: 8,
     img: "/imagenes/ipv6-1.jpg",
     title: "IPV 6",
     description:
       "Diseñamos y ejecutamos pruebas piloto para adopción IPV 6 en ambientes multiplataforma. Apoyamos en la configuración, puesta a punta de equipos de red, entornos, plataformas e infraestructuras TI.",
-  },
+    description_long: "Ofrecemos servicios de construccion de antenas.",
+    img_a: "/imagenes/ipv6.jpg",
+    img_b: "/imagenes/ipv6-3.jpg",
+    },
 ];
 
 export default servicesData;
