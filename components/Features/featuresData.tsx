@@ -55,7 +55,7 @@ const featuresData: Feature[] = [
     icon: "/icons-svg/antena-2.svg",
     title: "IPV 6",
     description:
-      "Diseñamos y ejecutamos pruebas piloto para adopción de esta tecnología en ambientes multiplataforma y apoyamos en la configuración y puesta a punta de equipos de red, entornos y plataformas e infraestructuras TI con IPv6",
+      "Diseñamos y ejecutamos pruebas piloto para adopción IPV 6 en ambientes multiplataforma. Apoyamos en la configuración, puesta a punta de equipos de red, entornos, plataformas e infraestructuras TI.",
   },
 ];
 

@@ -15,6 +15,9 @@ module.exports = {
       inter: ["Inter", "sans-serif"],
     },
     extend: {
+      height: {
+        "120": "30rem",
+      },
       colors: {
         current: "currentColor",
         transparent: "transparent",
