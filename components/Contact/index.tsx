@@ -87,7 +87,7 @@ const Contact = () => {
 
                   <input
                     type="text"
-                    placeholder="Numero telefono"
+                    placeholder="Celular"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
                 </div>

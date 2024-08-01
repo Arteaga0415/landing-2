@@ -4,6 +4,7 @@ import servicesData from "../services/servicesData"
 import Image from "next/image"  
 import SharePost from "../Blog/SharePost"
 import { useSearchParams } from 'next/navigation'
+import Link from "next/link"
 
 export default function BigService () {
   const searchParams = useSearchParams()
@@ -49,11 +50,11 @@ export default function BigService () {
           </ul> */}
 
           <div className="blog-details">
-            <p>
+            <p className="pb-5">
               {service.description_long}
             </p>
 
-            <div className="flex flex-wrap gap-5">
+            <div className="flex flex-wrap gap-5 pb-7.5">
               <Image
                 src={`${service.img_a}`}
                 width={350}
@@ -69,10 +70,16 @@ export default function BigService () {
                 className="rounded-md"
               />
             </div>
-
-            <h3 className="pt-8">
-              Nunc elementum elit viverra, tempus quam non
-            </h3>
+            <Link href={'/support'}>
+              <button
+                aria-label="get started button"
+                className="flex rounded-full bg-primary px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primary dark:hover:bg-primaryho"
+              >
+                <h3>
+                  Contactanos
+                </h3>
+              </button>
+            </Link>
           </div>
 
           {/* <SharePost /> */}
