@@ -11,6 +11,22 @@ export default function Neutralidad () {
           </h2>
           <p>{neutralidadData.ley1}</p>
           <p>{neutralidadData.ley2}</p>
+          <div className="flex flex-wrap justify-center gap-5">
+            <Image 
+              src={neutralidadData.img4}
+              width={400}
+              height={250}
+              alt="Neutralidad imagen"
+              className="rounded-md"
+            />
+            <Image 
+              src={neutralidadData.img5}
+              width={400}
+              height={250}
+              alt="Neutralidad imagen"
+              className="rounded-md"
+            />
+          </div>
           <p>{neutralidadData.ley3}</p>
           <p>{neutralidadData.ley4}</p>
           <p>{neutralidadData.ley5}</p>
