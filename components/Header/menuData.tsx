@@ -29,7 +29,7 @@ const menuData: Menu[] = [
     id: 2.1,
     title: "Neutralidad",
     newTab: false,
-    path: "/#about",
+    path: "/neutralidad",
   },
   {
     id: 2.2,
