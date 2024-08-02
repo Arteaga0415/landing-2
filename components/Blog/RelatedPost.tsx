@@ -11,18 +11,16 @@ const RelatedService = async () => {
           Servicios
         </h4>
 
-        <div>
+        <div className="flex flex-col justify-center">
           {servicesData.map((service, key) => (
             <div
               className="mb-7.5 flex flex-wrap gap-4 xl:flex-nowrap 2xl:gap-6"
               key={key}
             >
-              <div className="max-w-45 relative h-20 w-1/2">
-                {service.img ? (
-                  <Image fill src={service.img} alt="Blog"/>
-                ) : (
-                  "No image"
-                )}
+              <div className="max-w-45 relative h-20 w-1/2 rounded-md">
+                <Link href={`/services/${service.id}?id=${service.id}`}>
+                  <Image fill src={service.img} alt="Blog" className="rounded-md"/>
+                </Link>
               </div>
               <h5 className="w-1/2 text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
                 <Link href={`/services/${service.id}?id=${service.id}`}>

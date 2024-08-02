@@ -7,8 +7,8 @@ const servicesData: Services[] = [
     title: "Suministros De Equipos",
     description:
       "Prestamos el servicio de suministro, configuración instalación y capacitación de equipos de cómputo y tecnológicos.",
-    description_long: "Prestamos el servicio de suministro, configuración, instalación y capacitación de equipos de cómputo y tecnológicos. Nuestro servicio integral asegura que las empresas puedan contar con la tecnología más avanzada y adecuada para sus necesidades, desde la adquisición hasta la implementación y el entrenamiento del personal. Esto no solo mejora la eficiencia operativa, sino que también optimiza los procesos y reduce los tiempos de inactividad.",
-    img_a: "/imagenes/equipos-computo-2.jpg",
+    description_long: "Prestamos el servicio de suministro, configuración, instalación y capacitación de equipos de cómputo y también suministramos aulas móviles e interactivas. Nuestro servicio integral asegura que las empresas puedan contar con la tecnología más avanzada y adecuada para sus necesidades, desde la adquisición hasta la implementación y el entrenamiento del personal. Esto no solo mejora la eficiencia operativa, sino que también optimiza los procesos y reduce los tiempos de inactividad.",
+    img_a: "/imagenes/aula-movil-1.jpg",
     img_b: "/imagenes/aula-interactiva.jpg",
   },
   {
