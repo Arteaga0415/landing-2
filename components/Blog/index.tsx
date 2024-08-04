@@ -10,8 +10,8 @@ const Blog = async () => {
         <div className="animate_top mx-auto text-center">
           <SectionHeader
             headerInfo={{
-              title: ``,
-              subtitle: `Latest News & Blogs`,
+              title: `Noticias Ingenieria Y Telecomunicaciones`,
+              subtitle: `Noticias Ingenieria Y Telecomunicaciones`,
               description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
             }}
           />
