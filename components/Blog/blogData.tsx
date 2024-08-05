@@ -6,8 +6,7 @@ const BlogData: Blog[] = [
     author: "Ingeniería y Telecomunicaciones",
     publishedAt: "July 30, 2023",
     mainImage: "/imagenes/ipv6-4.png",
-    secondImage: "",
-    thirdImage: "",
+    secondImage: "/imagenes/ipv6-7.png",
     title: "Como implementar IPV6 de forma segura.",
     metadata: "Según Stonesoft, muchas compañías han sufrido engaños sobre la complejidad que rodea la seguridad de IPv6. Así, la compañía está en disposición de ayudar tanto a las empresas privadas como a las públicas a implementar IPv6 de una forma segura y rentable.",
     body: `
@@ -28,7 +27,7 @@ const BlogData: Blog[] = [
   {
     _id: 2,
     mainImage: "/imagenes/mac 3.jpg",
-    secondImage: "",
+    secondImage: "/imagenes/patton.png",
     thirdImage: "",
     author: "Ingeniería y Telecomunicaciones",
     publishedAt: "Julio 6, 2019",
@@ -44,7 +43,7 @@ const BlogData: Blog[] = [
   {
     _id: 3,
     mainImage: "/imagenes/enlace-3.jpg",
-    secondImage: "",
+    secondImage: "/imagenes/enlace-4.jpg",
     thirdImage: "",
     author: "Ingeniería y Telecomunicaciones",
     publishedAt: "Marzo 11, 2017",
@@ -107,8 +106,7 @@ const BlogData: Blog[] = [
   {
     _id: 6,
     mainImage: "/imagenes/ipv6-2.jpg",
-    secondImage: "",
-    thirdImage: "",
+    secondImage: "/imagenes/ipv6-6.png",
     author: "Ingeniería y Telecomunicaciones",
     publishedAt: "Agosto 13, 2016",
     title: "IPv6 se toma el Llano Colombiano!",

@@ -58,20 +58,29 @@ export default function BigBlog () {
                     {blog.body4}
                   </p>
 
+                  {blog.thirdImage ? 
                   <div className="flex flex-wrap gap-5 py-4">
                     <Image
-                      src={"/images/blog/blog-01.png"}
+                      src={`${blog.secondImage}`}
                       width={350}
                       height={200}
                       alt="image"
                     />
                     <Image
-                      src={"/images/blog/blog-02.png"}
+                      src={`${blog.thirdImage}`}
                       width={350}
                       height={200}
                       alt="image"
                     />
-                  </div>
+                  </div> : 
+                  <div className="flex flex-wrap gap-5 py-4">
+                    <Image
+                      src={`${blog.secondImage}`}
+                      width={450}
+                      height={300}
+                      alt="image"
+                    />
+                  </div>}
 
                   <p className="py-2 text-justify">
                     {blog.body5}
@@ -104,21 +113,30 @@ export default function BigBlog () {
                     {blog.body2}
                   </p>
 
+                  {blog.thirdImage ? 
                   <div className="flex flex-wrap gap-5 py-4">
                     <Image
-                      src={"/images/blog/blog-01.png"}
+                      src={`${blog.secondImage}`}
                       width={350}
                       height={200}
                       alt="image"
                     />
                     <Image
-                      src={"/images/blog/blog-02.png"}
+                      src={`${blog.thirdImage}`}
                       width={350}
                       height={200}
                       alt="image"
                     />
-                  </div>
-
+                  </div> : 
+                  <div className="flex flex-wrap gap-5 py-4">
+                    <Image
+                      src={`${blog.secondImage}`}
+                      width={450}
+                      height={300}
+                      alt="image"
+                    />
+                  </div>}
+                  
                   <p className="py-2 text-justify">
                     {blog.body3}
                   </p>
