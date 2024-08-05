@@ -3,6 +3,7 @@ import SharePost from "@/components/Blog/SharePost";
 import { Metadata } from "next";
 import Image from "next/image";
 import BigService from "@/components/page-service";
+import Presentation from "@/components/Presentation";
 
 export const metadata: Metadata = {
   title: "Blog Details Page - Solid SaaS Boilerplate",
@@ -13,7 +14,7 @@ const SingleBlogPage = async () => {
   return (
     <>
       <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+        <div className="mx-auto max-w-c-1390 px-4 pb-20 md:px-8 2xl:px-0">
           <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
             <div className="md:w-1/2 lg:w-[32%]">
               {/* <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
@@ -54,6 +55,7 @@ const SingleBlogPage = async () => {
             <BigService />
           </div>
         </div>
+        <Presentation />
       </section>
     </>
   );

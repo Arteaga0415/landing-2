@@ -17,7 +17,7 @@ const RelatedService = async () => {
               className="mb-7.5 flex flex-wrap gap-4 xl:flex-nowrap 2xl:gap-6"
               key={key}
             >
-              <div className="max-w-45 relative h-20 w-1/2 rounded-md">
+              <div className="max-w-45 relative h-24 w-1/2 rounded-md">
                 <Link href={`/services/${service.id}?id=${service.id}`}>
                   <Image fill src={service.img} alt="Blog" className="rounded-md"/>
                 </Link>
