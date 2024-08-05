@@ -1,9 +1,9 @@
+import BigBlog from "@/components/Blog/bigBlog";
 import BlogData from "@/components/Blog/blogData";
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
 import { Metadata } from "next";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Blog Details Page - Solid SaaS Boilerplate",
@@ -12,10 +12,6 @@ export const metadata: Metadata = {
 };
 
 const SingleBlogPage2 = async () => {
-  const searchParams = useSearchParams()
-  const search = searchParams.get('id');
-  console.log('url params: ', search);
-  const blogs = BlogData[Number(search)-1];
 
   return (
     <>
@@ -41,7 +37,9 @@ const SingleBlogPage2 = async () => {
               <RelatedPost />
             </div>
 
-            <div className="lg:w-2/3">
+            <BigBlog />
+          
+            {/* <div className="lg:w-2/3">
               <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -128,7 +126,7 @@ const SingleBlogPage2 = async () => {
 
                 <SharePost />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -38,7 +38,6 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
             </Link>
           </h3>
           <p className="line-clamp-3">{`${metadata?.slice(0,100)}...`}</p>
-          <p className="line-clamp-3">{`${body?.slice(0,100)}...`}</p>
         </div>
       </motion.div>
     </>
