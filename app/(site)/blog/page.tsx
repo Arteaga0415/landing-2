@@ -5,9 +5,8 @@ import Blog from "@/components/Blog";
 import Presentation from "@/components/Presentation";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Solid SaaS Boilerplate",
-  description: "This is Blog page for Solid Pro",
-  // other metadata
+  title: "Noticias Ingeniería y Telecomunicaciones",
+  description: "Esta es la pagina de noticias de Ingeniería y Telecomunicaciones",
 };
 
 const BlogPage = async () => {

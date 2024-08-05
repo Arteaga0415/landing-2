@@ -8,7 +8,7 @@ const Service = () => {
   return (
     <>
       {/* <!-- ===== Services Start ===== --> */}
-      <section id="services" className="py-20 lg:py-25 xl:py-30">
+      <section id="services" className="pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <SectionHeader

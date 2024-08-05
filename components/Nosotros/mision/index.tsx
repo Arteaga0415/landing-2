@@ -30,7 +30,7 @@ const MisionItem = ({ mision }: { mision: Blog[] }) => {
         className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
       >
         {mision.map((el, index) => (
-          <div className="px-4" key={index}>
+          <div className="px-4 text-justify" key={index}>
             <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
               {`${el.title.slice(0, 40)}`}
             </h3>

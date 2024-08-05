@@ -4,7 +4,7 @@ import BlogData from "./blogData";
 
 const Blog = async () => {
   return (
-    <section className="py-20 lg:py-25 xl:py-30">
+    <section className="py-10 lg:py-15 xl:py-20">
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
         {/* <!-- Section Title Start --> */}
         <div className="animate_top mx-auto text-center">
@@ -12,7 +12,7 @@ const Blog = async () => {
             headerInfo={{
               title: `Noticias Ingenieria Y Telecomunicaciones`,
               subtitle: `Noticias Ingenieria Y Telecomunicaciones`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              description: ``,
             }}
           />
         </div>

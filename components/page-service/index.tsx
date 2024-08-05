@@ -49,7 +49,7 @@ export default function BigService () {
             </li>
           </ul> */}
 
-          <div className="blog-details">
+          <div className="blog-details text-justify">
             <p className="pb-5">
               {service.description_long}
             </p>

@@ -49,7 +49,7 @@ const RazonesItem = ({ razonesData }: { razonesData: RazonesData }) => {
           )}
         </button>
         <p
-          className={`border-t border-stroke px-6 py-5 dark:border-strokedark lg:px-9 lg:py-7.5 ${
+          className={`border-t border-stroke px-6 py-5 text-justify dark:border-strokedark lg:px-9 lg:py-7.5 ${
             activeRazones === id ? "block" : "hidden"
           }`}
         >

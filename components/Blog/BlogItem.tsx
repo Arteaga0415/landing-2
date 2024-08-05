@@ -28,16 +28,20 @@ const BlogItem = ({ blog }: { blog: Blog }) => {
         className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
       >
         <Link href={`/blog/${_id}?id=${_id}`} className="relative block aspect-[368/239]">
-          <Image src={mainImage} alt={title} fill />
+          <Image className="rounded-md" src={mainImage} alt={title} fill />
         </Link>
 
         <div className="px-4">
           <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
-            <Link href={`/blog/blog-details`}>
+            <Link href={`/blog/${_id}?id=${_id}`}>
               {title}
             </Link>
           </h3>
-          <p className="line-clamp-3">{`${metadata?.slice(0,100)}...`}</p>
+          <p className="line-clamp-3">
+            <Link href={`/blog/${_id}?id=${_id}`}>
+              {`${metadata?.slice(0,100)}...`}
+            </Link>
+          </p>
         </div>
       </motion.div>
     </>

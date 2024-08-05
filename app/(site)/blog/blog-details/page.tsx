@@ -100,7 +100,7 @@ const SingleBlogPage = async () => {
                   </li>
                 </ul>
 
-                <div className="blog-details">
+                <div className="blog-details text-justify">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
