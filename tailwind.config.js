@@ -17,6 +17,7 @@ module.exports = {
     extend: {
       height: {
         "120": "30rem",
+        "112": "28rem",
       },
       colors: {
         current: "currentColor",
