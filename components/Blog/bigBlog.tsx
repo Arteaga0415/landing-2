@@ -65,12 +65,14 @@ export default function BigBlog () {
                       width={350}
                       height={200}
                       alt="image"
+                      className="rounded-md"
                     />
                     <Image
                       src={`${blog.thirdImage}`}
                       width={350}
                       height={200}
                       alt="image"
+                      className="rounded-md"
                     />
                   </div> : 
                   <div className="flex flex-wrap gap-5 py-4">
@@ -79,6 +81,7 @@ export default function BigBlog () {
                       width={450}
                       height={300}
                       alt="image"
+                      className="rounded-md"
                     />
                   </div>}
 
@@ -120,12 +123,14 @@ export default function BigBlog () {
                       width={350}
                       height={200}
                       alt="image"
+                      className="rounded-md"
                     />
                     <Image
                       src={`${blog.thirdImage}`}
                       width={350}
                       height={200}
                       alt="image"
+                      className="rounded-md"
                     />
                   </div> : 
                   <div className="flex flex-wrap gap-5 py-4">
@@ -134,9 +139,10 @@ export default function BigBlog () {
                       width={450}
                       height={300}
                       alt="image"
+                      className="rounded-md"
                     />
                   </div>}
-                  
+
                   <p className="py-2 text-justify">
                     {blog.body3}
                   </p>

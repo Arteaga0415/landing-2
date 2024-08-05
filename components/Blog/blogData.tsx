@@ -28,7 +28,6 @@ const BlogData: Blog[] = [
     _id: 2,
     mainImage: "/imagenes/mac 3.jpg",
     secondImage: "/imagenes/patton.png",
-    thirdImage: "",
     author: "Ingeniería y Telecomunicaciones",
     publishedAt: "Julio 6, 2019",
     title: "Patton y Unify colaboran en llevar las Comunicaciones Unificadas a las Pymes",
@@ -60,8 +59,7 @@ const BlogData: Blog[] = [
   {
     _id: 4,
     mainImage: "/imagenes/solar-energy-4.jpg",
-    secondImage: "",
-    thirdImage: "",
+    secondImage: "/imagenes/solar-energy-9.jpg",
     author: "Ingeniería y Telecomunicaciones",
     publishedAt: "Febrero 30, 2021",
     title: "Beneficios de La Energía Solar",
@@ -83,7 +81,7 @@ const BlogData: Blog[] = [
   {
     _id: 5,
     mainImage: "/imagenes/wind-energy-4.jpg",
-    secondImage: "",
+    secondImage: "/imagenes/wind-energy-6.jpg",
     thirdImage: "",
     author: "Ingeniería y Telecomunicaciones",
     publishedAt: "Marzo 5, 2021",
