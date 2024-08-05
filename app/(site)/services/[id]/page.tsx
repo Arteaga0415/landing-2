@@ -1,4 +1,4 @@
-import RelatedService from "@/components/Blog/RelatedPost";
+import RelatedService from "@/components/services/relatedService";
 import SharePost from "@/components/Blog/SharePost";
 import { Metadata } from "next";
 import Image from "next/image";

@@ -71,7 +71,7 @@ const servicesData: Services[] = [
     title: "IPV 6",
     description: "Diseñamos y ejecutamos pruebas piloto para adopción IPV 6 en ambientes multiplataforma. Apoyamos en la configuración, puesta a punta de equipos de red, entornos, plataformas e infraestructuras TI.",
     description_long: "Diseñamos y ejecutamos pruebas piloto para la adopción de IPv6 en ambientes multiplataforma. Apoyamos en la configuración y optimización de equipos de red, entornos, plataformas e infraestructuras TI. La adopción de IPv6 es crucial para el futuro de la conectividad, permitiendo un número ilimitado de direcciones IP y mejorando la eficiencia y seguridad de la red. Nuestra experiencia garantiza una transición suave y efectiva hacia esta tecnología de vanguardia.",
-    img_a: "/imagenes/ipv6.jpg",
+    img_a: "/imagenes/ipv6-5.png",
     img_b: "/imagenes/ipv6-2.jpg",
     },
 ];

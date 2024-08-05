@@ -3,7 +3,7 @@ import { Blog } from "@/types/blog";
 const BlogData: Blog[] = [
   {
     _id: 1,
-    mainImage: "/imagenes/ipv6.jpg",
+    mainImage: "/imagenes/ipv6-4.png",
     title: "Como implementar IPV6 de forma segura.",
     metadata: "Según Stonesoft, muchas compañías han sufrido engaños sobre la complejidad que rodea la seguridad de IPv6. Así, la compañía está en disposición de ayudar tanto a las empresas privadas como a las públicas a implementar IPv6 de una forma segura y rentable.",
     body: `
@@ -37,7 +37,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 3,
-    mainImage: "/imagenes/enlace-2.png",
+    mainImage: "/imagenes/enlace-3.jpg",
     title: "Operaciones Mediante Enlaces Punto a Punto (Asignación de espectro para SHF)",
     metadata:
       "El Ministerio de Tecnologías de la Información y las Comunicaciones informa sobre la publicación de la Resolución 1810 del 15 de agosto de 2012, “Por medio de la cual se declara abierto el procedimiento de selección objetiva número 002 de 2012 para otorgar permisos para el uso del espectro radioeléctrico para los servicios fijos y móviles terrestres, en la banda de SHF en los segmentos atribuidos a los servicios fijos radioeléctricos para su operación mediante enlaces punto a punto en el rango de 3.6 GHz a 23 GHz, de conformidad con el Cuadro Nacional de Atribución de Bandas de Frecuencias – CNABF",
@@ -50,7 +50,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 4,
-    mainImage: "/imagenes/solar-energy-1.png",
+    mainImage: "/imagenes/solar-energy-4.jpg",
     title: "Beneficios de La Energía Solar",
     metadata: "La energía solar renovable es una solución eficaz y sostenible que está revolucionando la forma en que obtenemos energía. Su adopción ofrece múltiples beneficios tanto a nivel ambiental como financiero, permitiendo un futuro más limpio y económico para todos.",
     body: `
@@ -69,7 +69,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 5,
-    mainImage: "/imagenes/wind-energy-1.png",
+    mainImage: "/imagenes/wind-energy-4.jpg",
     title: "La Energia Eolica",
     metadata: "La energía eólica es una fuente de energía renovable que está ganando popularidad debido a sus numerosos beneficios ambientales y financieros. Esta tecnología aprovecha la fuerza del viento para generar electricidad, contribuyendo a un futuro más sostenible y económico.",
     body: `
@@ -88,7 +88,7 @@ const BlogData: Blog[] = [
   },
   {
     _id: 6,
-    mainImage: "/images/blog/blog-01.png",
+    mainImage: "/imagenes/ipv6-2.jpg",
     title: "IPv6 se toma el Llano Colombiano!",
     metadata: "IPv6 estará presente en las instalaciones de la Cámara de Comercio de Villavicencio, junto a expertos nacionales e internacionales, el Presidente del IPv6 Forum Council Colombia y el Gerente de Ingeniería e Informática E.A.T (INGERNET), para inaugurar la Academia de Formación y Certificación IPv6. Esta academia orientará los procesos de adopción de esta tecnología y ofrecerá capacitación internacional certificada por el IPv6 Forum a todas las empresas y personal del área TIC en la región.",
     body: `
