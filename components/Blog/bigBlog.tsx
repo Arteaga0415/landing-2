@@ -31,28 +31,34 @@ export default function BigBlog () {
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
-                    <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    <span className="text-black dark:text-white">Autor: </span>{" "}
+                    {blog.author}
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Publicado: {blog.publishedAt}
                     </span>{" "}
                   </li>
-                  <li>
-                    <span className="text-black dark:text-white">
-                      Category:
-                    </span>
-                    Events
-                  </li>
                 </ul>
-
+                {blog.body5 ? 
                 <div className="blog-details">
-                  <p>
+                  <p className="py-2 text-justify">
                     {blog.body}
                   </p>
+                  <p className="py-2 text-justify">
+                    {blog.body1}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body2}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body3}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body4}
+                  </p>
 
-                  <div className="flex flex-wrap gap-5">
+                  <div className="flex flex-wrap gap-5 py-4">
                     <Image
                       src={"/images/blog/blog-01.png"}
                       width={350}
@@ -67,20 +73,60 @@ export default function BigBlog () {
                     />
                   </div>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
-                  </h3>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                  <p className="py-2 text-justify">
+                    {blog.body5}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body6}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body7}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body9}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body9}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body10}
                   </p>
                 </div>
+                : 
+                <div>
+                  <p className="py-2 text-justify">
+                    {blog.body}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body1}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body2}
+                  </p>
 
+                  <div className="flex flex-wrap gap-5 py-4">
+                    <Image
+                      src={"/images/blog/blog-01.png"}
+                      width={350}
+                      height={200}
+                      alt="image"
+                    />
+                    <Image
+                      src={"/images/blog/blog-02.png"}
+                      width={350}
+                      height={200}
+                      alt="image"
+                    />
+                  </div>
+
+                  <p className="py-2 text-justify">
+                    {blog.body3}
+                  </p>
+                  <p className="py-2 text-justify">
+                    {blog.body4}
+                  </p>
+              
+                </div>}
                 <SharePost />
               </div>
             </div>

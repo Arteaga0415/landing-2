@@ -26,7 +26,7 @@ export type Blog = {
   secondImage?: string;
   thirdImage?: string;
   fourthImage?: string;
-  author?: Author;
+  author?: string;
   tags?: string[];
   publishedAt?: string;
 };
