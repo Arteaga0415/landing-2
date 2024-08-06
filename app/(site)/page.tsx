@@ -13,6 +13,7 @@ import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Presentation from "@/components/Presentation";
+import { Video } from "@/components/video";
 
 export const metadata: Metadata = {
   title: "Ingeniería y Telecomunicaciones HL SAS",
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
+      <Video />
       <Hero />
       {/* <Brands /> */}
       <Feature />
@@ -31,7 +33,7 @@ export default function Home() {
       {/* <About /> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
-      <Integration />
+      {/* <Integration /> */}
       {/* Se puede Utilizar */}
       {/* <CTA /> */}
       {/* Se Utilizo */}
