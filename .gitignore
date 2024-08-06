@@ -37,3 +37,9 @@ yarn-error.log*
 
 #images
 Logos Ingenieria Y Telecomunicacione HL sas
+# next-video
+videos/*
+!videos/*.json
+!videos/*.js
+!videos/*.ts
+public/_next-video
