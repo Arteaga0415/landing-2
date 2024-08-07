@@ -25,7 +25,7 @@ const SingleService = ({ service }: { service: Services }) => {
         whileInView="visible"
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="h-112 lg:h-120 animate_top z-40 rounded-lg border border-white bg-white p-5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-12.5"
+        className="h-112 lg:h-120 animate_top z-40 rounded-lg border border-white bg-white p-5 shadow-solid-3 transition-all hover:shadow-solid-7 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-12.5"
       >
         <Link href={`/services/${id}?id=${id}`}>
           <Image 

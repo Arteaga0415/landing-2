@@ -21,21 +21,21 @@ type ServiceData = {
 
 const serviceData: ServiceData[] = [
   {
-    title: 'Telecomunicaciones',
-    desc: 'Servicios de Conectividad Remota Empresarial',
+    title: 'Conectividad',
+    desc: 'Conectividad Empresarial',
     body: 'Ofrecemos servicios de conectividad remota para empresas, permitiendo la interconexión de múltiples sedes a través de soluciones de red avanzadas.',
     img: '/imagenes/landing-4.jpg',
   },
   {
     title: 'Energía Solar',
     desc: 'Energía renovables',
-    body: 'Ofrecemos servicios de suministro, instalación y mantenimiento de equipos para granjas de energía solar.',
+    body: 'Ofrecemos servicios de suministro, instalación y mantenimiento de equipos para equipos de energía solar.',
     img: '/imagenes/landing-solar-2.jpg',
   },
   {
     title: 'Energía Eólica',
     desc: 'Energía renovables',
-    body: 'Prestamos servicios de suministro, instalación y mantenimiento de equipos para granjas de energía eólica.',
+    body: 'Prestamos servicios de suministro, instalación y mantenimiento de equipos para equipos de energía eólica.',
     img: '/imagenes/landing-wind-2.jpeg',
   },
 
