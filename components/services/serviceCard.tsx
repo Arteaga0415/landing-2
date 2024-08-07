@@ -1,19 +1,36 @@
 import { 
   Carousel,
-  CarouselItem,
   CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "../carousel/components"
+import { 
+  Card,
+  CardContent,
+  
+ } from "../card"
 
 export default function ServiceCard () {
   return (
     <>
-       <Carousel>
-          <CarouselContent>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3">Aloha 1</CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3">Aloha 2</CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3">Aloha 3</CarouselItem>
-          </CarouselContent>
-        </Carousel>
+      <Carousel className="w-full max-w-xs">
+        <CarouselContent>
+          {Array.from({ length: 5 }).map((_, index) => (
+            <CarouselItem key={index}>
+              <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                    <span className="text-4xl font-semibold">{index + 1}</span>
+                  </CardContent>
+                </Card>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
     </>
   )
 }
