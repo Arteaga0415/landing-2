@@ -45,7 +45,7 @@ export default function ServiceCard () {
   return (
     <section className="overflow-hidden flex items-center justify-center pb-20 md:px-20 py-10 md:py-15 lg:py-20">
       <Carousel opts={{align: "start"}} orientation="vertical" className="w-full">
-        <CarouselContent className="mt-1 h-[450px] md:h-[500px]">
+        <CarouselContent className="mt-1 h-[500px]">
           {serviceData.map((el, index) => (
             <CarouselItem className="pt-1" key={index}>
               <div className="p-1">
@@ -64,7 +64,7 @@ export default function ServiceCard () {
                           alt="imagen"  
                           className="rounded-md"                 
                         />
-                        <h6 className="text-justify text-lg font-normal rounded-md pt-5 md:p-2 md:bg-gray-500 md:bg-opacity-90 md:w-2/5 md:absolute md:bottom-5 md:right-5">
+                        <h6 className="text-justify text-lg font-normal rounded-md pt-5 md:p-2 md:bg-gray-500 md:bg-opacity-0 md:w-2/5 md:absolute md:bottom-5 md:right-5">
                           {el.body}
                         </h6>
                       </div>
