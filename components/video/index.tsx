@@ -2,7 +2,7 @@ export function Video() {
   return (
     <section className="pt-30">
       <div className="relative overflow-hidden">
-        <video className="w-full object-cover" loop autoPlay muted>
+        <video className="w-full object-cover" loop autoPlay playsInline muted>
           <source src="/videos/landing-1.mp4" type="video/mp4" />
           <track
             src="/path/to/captions.vtt"
