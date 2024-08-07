@@ -14,6 +14,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 import Presentation from "@/components/Presentation";
 import { Video } from "@/components/video";
+import ServiceCard from "@/components/services/serviceCard";
 
 export const metadata: Metadata = {
   title: "Ingeniería y Telecomunicaciones HL SAS",
@@ -27,6 +28,7 @@ export default function Home() {
       <Hero />
       {/* <Brands /> */}
       <Feature />
+      <ServiceCard />
       <div className="pb-20">
         <Presentation />
       </div>

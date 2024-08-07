@@ -12,7 +12,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-10 pt-35 md:pt-40 xl:pb-15 xl:pt-46">
+      <section className="overflow-hidden pb-10 pt-15 md:pt-20 xl:pb-15 xl:pt-25">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex items-center justify-center lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-4/5">
@@ -20,10 +20,10 @@ const Hero = () => {
                 🔥 Solid - A Complete SaaS Web Template
               </h4> */}
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Bienvenidos a Ingeniería y Telecomunicaciones
+                Bienvenido a Ingeniería y Telecomunicaciones
               </h1>
               <p>
-                Es una empresa innovadora en el área de las telecomunicaciones y energías renovables, 
+                Somos una empresa innovadora en el área de las telecomunicaciones y energías renovables, 
                 solar y eólica. Siendo pionera en la región del llano, brindando una solución de 
                 conectividad para el sector Empresarial.
               </p>
