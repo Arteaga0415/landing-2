@@ -64,7 +64,7 @@ export default function ServiceCard () {
                           alt="imagen"  
                           className="rounded-md"                 
                         />
-                        <h6 className="text-justify text-lg font-normal w-2/5 absolute bottom-5 right-5">
+                        <h6 className="text-justify text-lg font-normal rounded-md pt-5 md:p-2 md:bg-gray-500 md:bg-opacity-80 md:w-2/5 md:absolute md:bottom-5 md:right-5">
                           {el.body}
                         </h6>
                       </div>
