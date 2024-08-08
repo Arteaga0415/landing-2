@@ -15,6 +15,7 @@ import Testimonial from "@/components/Testimonial";
 import Presentation from "@/components/Presentation";
 import { Video } from "@/components/video";
 import ServiceCard from "@/components/services/serviceCard";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "Ingeniería y Telecomunicaciones HL SAS",
@@ -24,7 +25,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Video />
+      <Suspense fallback={<p>Cargando Video...</p>}>
+        <Video />
+      </Suspense>
       <Hero />
       {/* <Brands /> */}
       <Feature />
