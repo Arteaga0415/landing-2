@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Suspense fallback={<p>Cargando Video...</p>}>
+      <Suspense fallback={<p className="text-black">Cargando Video...</p>}>
         <Video />
       </Suspense>
       <Hero />
