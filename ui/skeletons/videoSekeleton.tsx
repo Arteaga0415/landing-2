@@ -6,9 +6,9 @@ export default function VideoSkeleton () {
       {/* <h6 className="text-lg font-semibold py-30">Cargando Video...</h6> */}
       <div className="relative overflow-hidden">
         <Image
-          src={'/imagenes/landing-1.jpg'}
-          width={1520}
-          height={651}
+          src={'/imagenes/video-fallback-1.jpg'}
+          width={3175}
+          height={932}
           alt="Imagen"
         />
         <div className="absolute top-0 left-0 m-4 text-white w-2/5 bg-opacity-50 md:px-2 md:py-8 rounded">
