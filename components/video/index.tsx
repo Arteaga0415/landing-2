@@ -7,13 +7,13 @@ export function Video() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // Simulates a 3-second loading time
+    }, 2000); // Simulates a 3-second loading time
 
     return () => clearTimeout(timer);
   }, []);
 
   if (isLoading) {
-    throw new Promise(resolve => setTimeout(resolve, 3000));
+    throw new Promise(resolve => setTimeout(resolve, 2000));
   }
   
   return (
