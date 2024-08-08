@@ -18,16 +18,7 @@ export function Video() {
     <section className="pt-30">
       <div className="relative overflow-hidden">
         {!isAndroid ? 
-          <video className="w-full object-cover" loop autoPlay playsInline muted>
-            <source src="/videos/landing-1.mp4" type="video/mp4" />
-            <track
-              src="/path/to/captions.vtt"
-              kind="subtitles"
-              srcLang="en"
-              label="English"
-            />
-            Tu navegador no tiene soporte para el Video.
-          </video>
+          <VideoComponent fileName={'landing-1.mp4'} />
         : 
         <VideoComponent fileName={'landing-1.mp4'} />
         }
