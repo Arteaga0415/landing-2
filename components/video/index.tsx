@@ -28,12 +28,23 @@ export function Video() {
             Tu navegador no tiene soporte para el Video.
           </video>
         : 
-        <Image
-          src={'/imagenes/video-fallback-1.jpg'}
-          width={3175}
-          height={932}
-          alt="Imagen"
-        /> }
+        // <Image
+        //   src={'/imagenes/video-fallback-1.jpg'}
+        //   width={3175}
+        //   height={932}
+        //   alt="Imagen"
+        // /> 
+        <video className="w-full object-cover" loop autoPlay playsInline muted>
+          <source src="/videos/landing-1.mp4" />
+          <track
+            src="/path/to/captions.vtt"
+            kind="subtitles"
+            srcLang="en"
+            label="English"
+          />
+          Tu navegador no tiene soporte para el Video.
+        </video>
+        }
         <div className="absolute top-0 left-0 m-4 text-white w-2/5 bg-opacity-50 md:px-2 md:py-8 rounded">
           <h1 className="text-sm md:text-2xl font-semibold md:font-bold text-white">Con más de 20 años de experiencia en telecomunicaciones, tecnología educativa y energías renovables.</h1>
         </div>
