@@ -29,12 +29,6 @@ export function Video() {
             Tu navegador no tiene soporte para el Video.
           </video>
         : 
-        // <Image
-        //   src={'/imagenes/video-fallback-1.jpg'}
-        //   width={3175}
-        //   height={932}
-        //   alt="Imagen"
-        // /> 
         <VideoComponent fileName={'landing-1.mp4'} />
         }
         <div className="absolute top-0 left-0 m-4 text-white w-2/5 bg-opacity-50 md:px-2 md:py-8 rounded">
