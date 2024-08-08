@@ -1,4 +1,21 @@
+'use client'
+import { useEffect, useState } from "react";
+
 export function Video() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // Simulates a 3-second loading time
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    throw new Promise(resolve => setTimeout(resolve, 3000));
+  }
+  
   return (
     <section className="pt-30">
       <div className="relative overflow-hidden">

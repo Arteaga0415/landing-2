@@ -43,7 +43,7 @@ const serviceData: ServiceData[] = [
 
 export default function ServiceCard () {
   return (
-    <section className="overflow-hidden flex items-center justify-center pb-20 md:px-20 py-10 md:py-15 lg:py-20">
+    <section className="overflow-hidden flex items-center justify-center pb-20 md:px-60 py-10 md:py-15 lg:py-20">
       <Carousel opts={{align: "start"}} orientation="vertical" className="w-full">
         <CarouselContent className="mt-1 h-[500px]">
           {serviceData.map((el, index) => (

@@ -16,6 +16,7 @@ import Presentation from "@/components/Presentation";
 import { Video } from "@/components/video";
 import ServiceCard from "@/components/services/serviceCard";
 import { Suspense } from "react";
+import VideoSkeleton from "@/ui/skeletons/videoSekeleton";
 
 export const metadata: Metadata = {
   title: "Ingeniería y Telecomunicaciones HL SAS",
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Suspense fallback={<p className="text-black">Cargando Video...</p>}>
+      <Suspense fallback={<VideoSkeleton/>} >
         <Video />
       </Suspense>
       <Hero />
