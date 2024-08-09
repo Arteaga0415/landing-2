@@ -41,14 +41,14 @@ const featuresData: Feature[] = [
     icon: "/icons-svg/solar-energy-1.svg",
     title: "Energía Solar",
     description:
-      "Prestamos servicios de suministro, instalación y mantenimiento de equipos para equipos de energía solar.",
+      "Prestamos servicios de suministro, instalación y mantenimiento de equipos de energía solar.",
   },
   {
     id: 7,
     icon: "/icons-svg/wind-mill-2.svg",
     title: "Energía Eólica",
     description:
-      "Prestamos servicios de suministro, instalación y mantenimiento de equipos para equipos de energía eólica.",
+      "Prestamos servicios de suministro, instalación y mantenimiento de equipos de energía eólica.",
   },
   {
     id: 8,
