@@ -13,7 +13,7 @@ const featuresData: Feature[] = [
     icon: "/icons-svg/antena-1.svg",
     title: "Infraestructura",
     description:
-      "Ofrecemos servicios de construccion de antenas",
+      "Contamos con la infraestructura necesaria para brindar servicios de telecomunicaciones empresariales de la mejor calidad.",
   },
   {
     id: 3,
