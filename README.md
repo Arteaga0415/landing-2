@@ -28,8 +28,3 @@ It’ll start the template on [localhost:3000](http://localhost:3000).
 ### Deploying on Vercel
 
 In the vercel projects page click add new and import the repository and deploy!
-
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-### ✨ Browse and Download - Best Free [Next.js Templates](https://nextjstemplates.com/templates)
