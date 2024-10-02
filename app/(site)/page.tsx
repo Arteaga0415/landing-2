@@ -17,10 +17,12 @@ import { Video } from "@/components/video";
 import ServiceCard from "@/components/services/serviceCard";
 import { Suspense } from "react";
 import VideoSkeleton from "@/ui/skeletons/videoSekeleton";
+import Conditions from "@/components/Conditions";
+import WhyChooseUs from "@/components/choose-us";
 
 export const metadata: Metadata = {
-  title: "Ingeniería y Telecomunicaciones HL SAS",
-  description: "Es una empresa innovadora en el área de las telecomunicaciones y energías renovables, solar y eólica. Siendo pionera en la región del llano, brindando una solución de conectividad para el sector Empresarial.",
+  title: "Single Family Services",
+  description: "We pay the most to our clients amongst any other buyers, plain and simple! There are no commissions, expensive closing costs or hidden fees; the price you see, is the price you get!",
 };
 
 export default function Home() {
@@ -32,10 +34,12 @@ export default function Home() {
       <Hero />
       {/* <Brands /> */}
       <Feature />
-      <ServiceCard />
-      <div className="pb-20">
+      <Conditions />
+      <WhyChooseUs />
+      {/* <ServiceCard /> */}
+      {/* <div className="pb-20">
         <Presentation />
-      </div>
+      </div> */}
       {/* <About /> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}

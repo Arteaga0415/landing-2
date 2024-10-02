@@ -20,16 +20,14 @@ const Hero = () => {
                 🔥 Solid - A Complete SaaS Web Template
               </h4> */}
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Bienvenido a Ingeniería y Telecomunicaciones
+                Welcome to Single Family Services
               </h1>
               <p>
-                Somos una empresa innovadora en el área de las telecomunicaciones y energías renovables, 
-                solar y eólica. Siendo pionera en la región del llano, brindando una solución de 
-                conectividad para el sector Empresarial.
+                You benefits when working with us!
               </p>
 
               <div className="mt-10">
-                {/* <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit}>
                   <div className="flex flex-wrap gap-5">
                     <input
                       value={email}
@@ -40,27 +38,27 @@ const Hero = () => {
                     />
                     <button
                       aria-label="get started button"
-                      className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
+                      className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primaryho dark:hover:bg-blackho"
                     >
                       Get Started
                     </button>
                   </div>
-                </form> */}
-                <div className="flex flex-row gap-5">
+                </form>
+                <div className="flex flex-row gap-5 mt-10">
                   <Link href={'/support'}>
                     <button
                       aria-label="get started button"
                       className="flex rounded-full bg-primary px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primary dark:hover:bg-primaryho"
                     >
-                      Contacto
+                      Contact
                     </button>
                   </Link>
-                  <Link href={'/services'}>
+                  <Link href={'/conditions'}>
                   <button
                     aria-label="get started button"
-                    className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-btndark dark:hover:bg-primaryho"
+                    className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primaryho dark:hover:bg-btndark"
                   >
-                    Nuestros Servicios
+                    Learn More
                   </button>
                   </Link>
                 </div>

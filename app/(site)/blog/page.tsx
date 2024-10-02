@@ -5,8 +5,8 @@ import Blog from "@/components/Blog";
 import Presentation from "@/components/Presentation";
 
 export const metadata: Metadata = {
-  title: "Noticias Ingeniería y Telecomunicaciones",
-  description: "Esta es la pagina de noticias de Ingeniería y Telecomunicaciones",
+  title: "Blog Single Family Services",
+  description: "Blog page for Single Family Services",
 };
 
 const BlogPage = async () => {

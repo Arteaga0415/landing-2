@@ -1,39 +1,39 @@
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
-  {
-    id: 1,
-    title: "Inicio",
-    newTab: false,
-    path: "/",
-  },
-  {
-    id: 1.1,
-    title: "Nuestros Planes",
-    newTab: false,
-    path: "/pricing",
-  },
+  // {
+  //   id: 1,
+  //   title: "Inicio",
+  //   newTab: false,
+  //   path: "/",
+  // },
+  // {
+  //   id: 1.1,
+  //   title: "Nuestros Planes",
+  //   newTab: false,
+  //   path: "/pricing",
+  // },
   {
     id: 1.2,
-    title: "Quienes Somos",
+    title: "About Us",
     newTab: false,
-    path: "/nosotros",
+    path: "/about",
   },
   {
     id: 2,
-    title: "Servicios",
+    title: "House Conditions",
     newTab: false,
-    path: "/services",
+    path: "/conditions",
   },
-  {
-    id: 2.1,
-    title: "Neutralidad",
-    newTab: false,
-    path: "/neutralidad",
-  },
+  // {
+  //   id: 2.1,
+  //   title: "Neutralidad",
+  //   newTab: false,
+  //   path: "/neutralidad",
+  // },
   {
     id: 2.2,
-    title: "Noticias",
+    title: "Blog",
     newTab: false,
     path: "/blog",
   },
@@ -89,7 +89,7 @@ const menuData: Menu[] = [
 
   {
     id: 4,
-    title: "Contactenos",
+    title: "Contact",
     newTab: false,
     path: "/support",
   },

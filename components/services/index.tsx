@@ -13,8 +13,8 @@ const Service = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "Nuestros Servicios",
-              subtitle: "Nuestros Servicios",
+              title: "Benefits",
+              subtitle: "Your Benefits When Working With Us!",
               description: `Telecomunicaciones y Energías Renovables, Solar y Eólica`,
             }}
           />

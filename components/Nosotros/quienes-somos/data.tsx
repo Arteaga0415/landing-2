@@ -5,7 +5,7 @@ const QuienesData: Blog[] = [
     _id: 1,
     mainImage: "/imagenes/mac 3.jpg",
     title: "Quienes Somos",
-    metadata: `Ingeniería y Telecomunicaciones HL SAS, es una empresa privada que está conformada por
+    metadata: `Single Family Services, es una empresa privada que está conformada por
        un grupo de ingenieros y especialistas en Telecomunicaciones y Energías Renovables; 
        con más de 18 años de experiencia en las áreas, brindamos los mejores estándares de calidad y servicios. 
        Contamos con una infraestructura propia en el departamento del meta y vendemos soluciones a nivel 

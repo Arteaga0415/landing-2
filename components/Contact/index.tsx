@@ -57,7 +57,7 @@ const Contact = () => {
               className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Enviar Mensaje
+                Send Message
               </h2>
 
               <form
@@ -67,7 +67,7 @@ const Contact = () => {
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
-                    placeholder="Nombre completo"
+                    placeholder="Name"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
@@ -81,20 +81,20 @@ const Contact = () => {
                 <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
-                    placeholder="Asunto"
+                    placeholder="Subject"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
                   <input
                     type="text"
-                    placeholder="Celular"
+                    placeholder="Cell Phone"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
                 </div>
 
                 <div className="mb-11.5 flex">
                   <textarea
-                    placeholder="Mensaje"
+                    placeholder="Message"
                     rows={4}
                     className="w-full border-b border-stroke bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white"
                   ></textarea>
@@ -106,7 +106,7 @@ const Contact = () => {
                     aria-label="send message"
                     className="inline-flex items-center gap-2.5 rounded-full bg-primary px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-btndark"
                   >
-                    Enviar Mensaje
+                    Send Message
                     <svg
                       className="fill-white"
                       width="14"
@@ -144,34 +144,34 @@ const Contact = () => {
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
               <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Encuéntranos
+                Find us
               </h2>
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Estamos ubicados 
+                  Location 
                 </h3>
-                <p>Calle 41 # 30a - 17 Centro Edificio Scala Local 2</p>
-                <p>Villavicencio, Meta</p>
-                <p>Colombia</p>
+                <p>4447 N Central ExpressWay STE 110 </p>
+                <p>Dallas, TX</p>
+                <p>75205</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email
                 </h3>
                 <p>
-                  <a href="#">contacto@ingernet.com.co</a>
+                  <a href="#">info@singlefamilyservices.com</a>
                 </p>
               </div>
               <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Telefonos
+                  Contact
                 </h4>
                 <p>
-                  <a href="#">+57 (8) 6720129</a>
+                  <a href="#">+1 866 936-7735</a>
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <h4 className="mt-4 mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Moviles
                 </h4>
@@ -179,7 +179,7 @@ const Contact = () => {
                   <a href="#">+57 3006773784</a>
                   <a href="#">+57 3165213200</a>
                 </p>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>

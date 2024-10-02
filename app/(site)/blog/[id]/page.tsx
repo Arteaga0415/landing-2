@@ -8,8 +8,8 @@ import Image from "next/image";
 import SectionHeader from "@/components/Common/SectionHeader";
 
 export const metadata: Metadata = {
-  title: "Noticias Ingeniería y Telecomunicaciones",
-  description: "Esta es la pagina de noticias de Ingeniería y Telecomunicaciones",
+  title: "Blog Single Family Services",
+  description: "Blog page for Single Family Services",
 };
 const SingleBlogPage2 = async () => {
 
@@ -18,7 +18,7 @@ const SingleBlogPage2 = async () => {
       <section className="pb-20 pt-25 lg:pb-25 lg:pt-30 xl:pb-30 xl:pt-35">
         <div className="animate_top mx-auto text-center">
           <h2 className="mx-auto mb-4 text-3xl font-bold text-black dark:text-white md:w-4/5 xl:text-sectiontitle3">
-            Noticias Ingeniería y Telecomunicaciones
+            Blog Single Family Services
           </h2>
         </div>
         <div className="mx-auto max-w-c-1390 px-4 pb-20 md:px-8 2xl:px-0">
@@ -27,7 +27,7 @@ const SingleBlogPage2 = async () => {
 
               <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <h4 className="mb-7.5 text-2xl font-semibold text-black dark:text-white">
-                  Noticias
+                  Blogs
                 </h4>
 
                 <ul>

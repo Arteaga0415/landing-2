@@ -3,60 +3,25 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/icons-svg/equipos.svg",
-    title: "Suministros De Equipos",
+    icon: "/logos/deal.png",
+    title: "Receive Top Dollar",
     description:
-      "Prestamos el servicio de suministro, configuración instalación y capacitación de equipos de cómputo y tecnológicos.",
+      "We pay the most to our clients amongst any other buyers, plain and simple! There are no commissions, expensive closing costs or hidden fees; the price you see, is the price you get!",
   },
   {
     id: 2,
-    icon: "/icons-svg/antena-1.svg",
-    title: "Infraestructura",
+    icon: "/logos/calendar.png",
+    title: "Close Your Property, on your Timeline!",
     description:
-      "Contamos con la infraestructura necesaria para brindar servicios de telecomunicaciones empresariales de la mejor calidad.",
+      "Every client's needs are different; for that reason, we can close as fast as 7 days, or in the next 6 months; it all depends on your needs!",
   },
   {
     id: 3,
-    icon: "/icons-svg/internet-1.svg",
-    title: "Conectividad Remota",
+    icon: "/logos/sold.png",
+    title: "Sell Your Property In AS-IS Condition!",
     description:
-      "Las empresas de hoy deben pensar en conectar cada una de sus sedes para operar en zonas geográficas amplias.",
-  },
-  {
-    id: 4,
-    icon: "/icons-svg/security-camera-1.svg",
-    title: "Camaras de Vigilancia y Monitoreo",
-    description:
-      "Brindamos soluciones de cámaras de vigilancia y monitoreo para casas, empresas, entidades públicas, negocios etc.",
-  },
-  {
-    id: 5,
-    icon: "/icons-svg/link-1.svg",
-    title: "Enlaces punto a punto",
-    description:
-      "El servicio de enlaces Punto a Punto de Ingernet, es una solución destinada a clientes con necesidades de interconexión para la transmisión de Datos, Voz y Video.",
-  },
-  {
-    id: 6,
-    icon: "/icons-svg/solar-energy-1.svg",
-    title: "Energía Solar",
-    description:
-      "Prestamos servicios de suministro, instalación y mantenimiento de equipos de energía solar.",
-  },
-  {
-    id: 7,
-    icon: "/icons-svg/wind-mill-2.svg",
-    title: "Energía Eólica",
-    description:
-      "Prestamos servicios de suministro, instalación y mantenimiento de equipos de energía eólica.",
-  },
-  {
-    id: 8,
-    icon: "/icons-svg/antena-2.svg",
-    title: "IPV 6",
-    description:
-      "Diseñamos y ejecutamos pruebas piloto para adopción IPV 6 en ambientes multiplataforma. Apoyamos en la configuración, puesta a punta de equipos de red, entornos, plataformas e infraestructuras TI.",
-  },
+      "No matter the condition, we can purchase any property! And renovate it after closing, so you don't have to deal with any expensive repairs, pulling permits or negotiating with shady contractors!",
+  }
 ];
 
 export default featuresData;

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <>
+    <div>
       <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
@@ -26,37 +26,37 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
+                className="animate_top md:w-1/2 lg:w-1/4"
               >
                 <a href="index.html" className="relative">
                   <Image
-                    width={110}
-                    height={80}
-                    src="/logos/Isotipo PNG.png"
+                    width={410}
+                    height={100}
+                    src="/logos/logo.png"
                     alt="Logo"
-                    className="dark:hidden"
+                    className="dark:hidden -ml-8"
                   />
                   <Image
-                    width={110}
-                    height={80}
-                    src="/logos/Isotipo PNG.png"
+                    width={410}
+                    height={100}
+                    src="/logos/logo.png"
                     alt="Logo"
-                    className="hidden dark:block"
+                    className="hidden dark:block -ml-8"
                   />
                 </a>
 
-                <p className="mb-10 mt-5">
-                  Ingeniería Y Telecomunicacione HL sas
-                </p>
+                {/* <p className="mb-10 mt-5">
+                  Single Family Services
+                </p> */}
 
-                <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
-                  contacto
+                <p className="mb-1.5 mt-10 text-sectiontitle uppercase tracking-[5px]">
+                  contact
                 </p>
                 <a
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  contacto@ingernet.com.co
+                  info@singlefamilyservices.com
                 </a>
               </motion.div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Páginas
+                    Pages
                   </h4>
 
                   <ul>
@@ -89,15 +89,15 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Inicio
+                        Single Family Services
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/pricing"
+                        href="/conditions"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Planes
+                        House Conditions
                       </a>
                     </li>
                     <li>
@@ -105,7 +105,7 @@ const Footer = () => {
                         href="/services"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Servicios
+                        Services
                       </a>
                     </li>
                   </ul>
@@ -130,16 +130,16 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Soporte
+                    Support
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="/nosotros"
+                        href="/about"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Nosotros
+                        About Us
                       </a>
                     </li>
                     <li>
@@ -147,7 +147,7 @@ const Footer = () => {
                         href="/blog"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Noticias
+                        Blog
                       </a>
                     </li>
                     <li>
@@ -155,7 +155,7 @@ const Footer = () => {
                         href="/support"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Contactenos
+                        Contact
                       </a>
                     </li>
                   </ul>
@@ -180,10 +180,10 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Información
+                    Contact Us
                   </h4>
                   <p className="mb-4 w-[90%]">
-                    Envíanos tu correo si quieres recibir una asesoría personalizada.
+                    Feel free to contact us and schedule a call.
                   </p>
 
                   <form action="#">
@@ -248,19 +248,19 @@ const Footer = () => {
               className="animate_top"
             >
               <ul className="flex items-center gap-8">
-                <li>
+                {/* <li>
                   <a href="#" className="hover:text-primary">
                     Inicio
                   </a>
-                </li>
-                {/* <li>
-                  <a href="#" className="hover:text-primary">
-                    Privacy Policy
-                  </a>
                 </li> */}
                 <li>
+                  <a href="/policy" className="hover:text-primary">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
                   <a href="/support" className="hover:text-primary">
-                    Soporte
+                    Support
                   </a>
                 </li>
               </ul>
@@ -285,7 +285,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Ingenieria Y Telecomunicaciones
+                &copy; {new Date().getFullYear()} Single Family Services
               </p>
             </motion.div>
 
@@ -309,7 +309,7 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-5">
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://www.facebook.com/people/Single-Family-Services/100087976694027/" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -333,7 +333,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://www.instagram.com/singlefamilyservices/?igsh=ZG5tbjY4aHgyZ2wz" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"
@@ -343,8 +343,32 @@ const Footer = () => {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <g clipPath="url(#clip0_48_1505)">
-                        <path
-                          d="M6.94 5.00002C6.93974 5.53046 6.72877 6.03906 6.35351 6.41394C5.97825 6.78883 5.46944 6.99929 4.939 6.99902C4.40857 6.99876 3.89997 6.78779 3.52508 6.41253C3.1502 6.03727 2.93974 5.52846 2.94 4.99802C2.94027 4.46759 3.15124 3.95899 3.5265 3.5841C3.90176 3.20922 4.41057 2.99876 4.941 2.99902C5.47144 2.99929 5.98004 3.21026 6.35492 3.58552C6.72981 3.96078 6.94027 4.46959 6.94 5.00002ZM7 8.48002H3V21H7V8.48002ZM13.32 8.48002H9.34V21H13.28V14.43C13.28 10.77 18.05 10.43 18.05 14.43V21H22V13.07C22 6.90002 14.94 7.13002 13.28 10.16L13.32 8.48002Z"
+                        <path 
+                          d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.312 3.608 1.287.975.975 1.225 2.241 1.287 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.312 2.633-1.287 3.608-.975.975-2.241 1.225-3.608 1.287-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.312-3.608-1.287-.975-.975-1.225-2.241-1.287-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.849C2.295 5.785 2.545 4.518 3.52 3.543 4.495 2.568 5.761 2.318 7.127 2.256c1.265-.058 1.645-.07 4.849-.07M12 0C8.741 0 8.332.015 7.053.072 5.775.129 4.574.36 3.558 1.376 2.543 2.391 2.312 3.592 2.255 4.871.015 5.745 0 8.241 0 12s.015 6.255.072 7.535c.057 1.28.288 2.481 1.303 3.496s2.216 1.246 3.496 1.303c1.28.057 2.781.072 7.535.072s6.255-.015 7.535-.072c1.28-.057 2.481-.288 3.496-1.303s1.246-2.216 1.303-3.496c.057-1.28.072-2.781.072-7.535s-.015-6.255-.072-7.535c-.057-1.28-.288-2.481-1.303-3.496S19.791.129 18.511.072C17.231.015 16.731 0 12 0zm0 5.838A6.162 6.162 0 0 0 5.838 12 6.162 6.162 0 0 0 12 18.162 6.162 6.162 0 0 0 18.162 12 6.162 6.162 0 0 0 12 5.838zm0 10.162A4.004 4.004 0 1 1 12 8a4.004 4.004 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 1 2.88 0 1.44 1.44 0 0 1-2.88 0z" 
+                          fill=""
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_48_1505">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/@sfcoservices?_t=8keKDgICBwE&_r=1" aria-label="social icon">
+                    <svg
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clipPath="url(#clip0_48_1505)">
+                        <path 
+                          d="M12.934 0h2.746c.13 1.226.701 2.236 1.681 2.958.708.531 1.519.844 2.392.942v2.72a7.905 7.905 0 0 1-3.89-.98v8.93c0 3.376-2.651 6.501-6.432 6.431-3.023-.051-5.367-2.527-5.387-5.511 0-.135-.002-.271 0-.406.033-3.036 2.285-5.52 5.296-5.873a5.787 5.787 0 0 1 1.36.014v2.745c-.446-.097-.908-.094-1.36.012-1.52.34-2.473 1.527-2.463 3.106.007.963.506 1.917 1.348 2.465 1.499.925 3.476-.068 3.475-1.832V3.277c0-.438.012-.875-.014-1.311-.022-.412-.014-.824-.014-1.236z"
                           fill=""
                         />
                       </g>
@@ -362,7 +386,7 @@ const Footer = () => {
           {/* <!-- Footer Bottom --> */}
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 
