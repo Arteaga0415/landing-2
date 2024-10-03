@@ -28,7 +28,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top md:w-1/2 lg:w-1/4"
               >
-                <a href="index.html" className="relative">
+                <a href="#" className="relative">
                   <Image
                     width={410}
                     height={100}
@@ -53,7 +53,7 @@ const Footer = () => {
                   contact
                 </p>
                 <a
-                  href="#"
+                  href="/support"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
                   info@singlefamilyservices.com
@@ -89,7 +89,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Single Family Services
+                        Home
                       </a>
                     </li>
                     <li>
@@ -102,10 +102,10 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="/services"
+                        href="/blog"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Services
+                        Blog
                       </a>
                     </li>
                   </ul>
@@ -142,14 +142,14 @@ const Footer = () => {
                         About Us
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="/blog"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Blog
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="/support"

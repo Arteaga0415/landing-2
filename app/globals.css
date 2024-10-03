@@ -31,3 +31,11 @@ h6 {
     font-size: 0.5rem;
     font-weight: lighter;
 }
+
+.pdf-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 120px;
+}

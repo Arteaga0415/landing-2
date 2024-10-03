@@ -20,6 +20,8 @@ import VideoSkeleton from "@/ui/skeletons/videoSekeleton";
 import Conditions from "@/components/Conditions";
 import WhyChooseUs from "@/components/choose-us";
 import VerticalCarousel from "@/components/carousel-prime";
+import EmbeddedForm from "@/components/Form";
+import Partners from "@/components/carousel";
 
 export const metadata: Metadata = {
   title: "Single Family Services",
@@ -56,6 +58,7 @@ export default function Home() {
       {/* <Pricing /> */}
       {/* Se Utilizo */}
       <Contact />
+      <EmbeddedForm />
       {/* <Blog /> */}
     </main>
   );
