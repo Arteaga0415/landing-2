@@ -19,6 +19,7 @@ import { Suspense } from "react";
 import VideoSkeleton from "@/ui/skeletons/videoSekeleton";
 import Conditions from "@/components/Conditions";
 import WhyChooseUs from "@/components/choose-us";
+import VerticalCarousel from "@/components/carousel-prime";
 
 export const metadata: Metadata = {
   title: "Single Family Services",
@@ -36,6 +37,7 @@ export default function Home() {
       <Feature />
       <Conditions />
       <WhyChooseUs />
+      <VerticalCarousel />
       {/* <ServiceCard /> */}
       {/* <div className="pb-20">
         <Presentation />
