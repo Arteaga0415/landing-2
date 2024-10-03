@@ -58,7 +58,7 @@ export default function Home() {
       {/* <Pricing /> */}
       {/* Se Utilizo */}
       <Contact />
-      <EmbeddedForm />
+      {/* <EmbeddedForm /> */}
       {/* <Blog /> */}
     </main>
   );
