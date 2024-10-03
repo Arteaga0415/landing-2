@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
         {/* Main content: Two columns */}
         <div className="flex flex-wrap">
           {/* Left Side: Image */}
-          <div className="flex justify-center w-1/2">
+          <div className="flex justify-center w-1/2 hidden md:flex">
             <Image
               src="/images/couple.png" // Add the correct image path here
               alt="Why Choose Us Image"
@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Right Side: Cards */}
-          <div className="space-y-6 w-1/2">
+          <div className="space-y-6 md:w-1/2">
             {chooseUsData.map(reason => (
                 <ChooseUsCard key={reason.id} reason={reason} />
             ))}

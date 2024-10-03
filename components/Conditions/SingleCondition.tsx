@@ -38,7 +38,7 @@ const SingleCondition = ({ condition }: { condition: Condition }) => {
           </div>
           <button
             aria-label="get started button"
-            className="flex justify-center w-40 rounded-full bg-primary px-7.5 py-2.5 mt-5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primaryho dark:hover:bg-btndark"
+            className="flex justify-center w-40 rounded-full bg-green2 px-7.5 py-2.5 mt-5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-green2 dark:hover:bg-btndark"
           >
             Learn More
           </button>

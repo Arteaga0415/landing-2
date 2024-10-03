@@ -27,7 +27,7 @@ const Hero = () => {
               </p>
 
               <div className="mt-10">
-                <form onSubmit={handleSubmit}>
+                {/* <form onSubmit={handleSubmit}>
                   <div className="flex flex-wrap gap-5">
                     <input
                       value={email}
@@ -43,12 +43,12 @@ const Hero = () => {
                       Get Started
                     </button>
                   </div>
-                </form>
+                </form> */}
                 <div className="flex flex-row gap-5 mt-10">
                   <Link href={'/support'}>
                     <button
                       aria-label="get started button"
-                      className="flex rounded-full bg-primary px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primary dark:hover:bg-primaryho"
+                      className="flex rounded-full px-7.5 py-2.5 text-white duration-300 ease-in-out bg-green2 hover:bg-primaryho dark:bg-green2 dark:hover:bg-primaryho"
                     >
                       Contact
                     </button>
