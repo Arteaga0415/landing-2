@@ -27,7 +27,7 @@ const SingleCondition = ({ condition }: { condition: Condition }) => {
         viewport={{ once: true }}
         className="animate_top z-40 rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-7 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-12.5"
       >
-        <Link href={'/services'} className="flex flex-col h-full items-center">
+        <Link href={'/conditions'} className="flex flex-col h-full items-center">
           <h3 className="text-xl font-semibold text-black dark:text-white xl:text-itemtitle md:h-[30px]">
             {title}
           </h3>
@@ -38,7 +38,7 @@ const SingleCondition = ({ condition }: { condition: Condition }) => {
           </div>
           <button
             aria-label="get started button"
-            className="flex w-40 rounded-full bg-primary px-7.5 py-2.5 mt-5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primaryho dark:hover:bg-btndark"
+            className="flex justify-center w-40 rounded-full bg-primary px-7.5 py-2.5 mt-5 text-white duration-300 ease-in-out hover:bg-primaryho dark:bg-primaryho dark:hover:bg-btndark"
           >
             Learn More
           </button>
