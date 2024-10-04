@@ -9,7 +9,7 @@ const Feature = () => {
     <>
       {/* <!-- ===== Features Start ===== --> */}
       <section id="features" className="py-10 lg:py-15 xl:py-20">
-        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+        <div className="mx-auto max-w-c-1315 p-4 md:p-8 xl:p-10 rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{

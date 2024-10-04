@@ -7,7 +7,7 @@ export default function MobileCarousel () {
     return (
         <>
             <Carousel opts={{align: "start"}} orientation="vertical" className="w-full">
-                <CarouselContent className="mt-1 h-[550px]">
+                <CarouselContent className="mt-1 h-[600px]">
                 {successStories.map((el, index) => (
                     <CarouselItem className="pt-1" key={index}>
                     <div className="p-1">
@@ -24,7 +24,7 @@ export default function MobileCarousel () {
                                     width={720}  
                                     height={720}
                                     alt="imagen"  
-                                    className="w-[210px] h-[210px] rounded-md object-cover h-ful w-full"                 
+                                    className="w-[210px] h-[260px] rounded-md object-cover h-ful w-full"                 
                                     />
                                     <h6 className="text-justify text-lg font-normal rounded-md pt-5 md:p-2 md:bg-gray-500 md:bg-opacity-90 md:w-2/5 md:absolute md:bottom-5 md:right-5">
                                     {el.description}

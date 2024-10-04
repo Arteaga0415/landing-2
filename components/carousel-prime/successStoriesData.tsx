@@ -1,6 +1,6 @@
 const successStories = [
     { 
-        img: '/images/successStories6.jpg', 
+        img: '/images/successStories7.jpg', 
         description: 'My experience was incredibly smooth. Due to family issues, I needed money quickly. Single Family cash offer was able to buy my property within weeks. What a great group to sell to!', 
         name: 'Tom', 
         location: 'Dallas, Texas'

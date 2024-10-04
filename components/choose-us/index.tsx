@@ -6,7 +6,7 @@ import chooseUsData from './chooseUsData';
 const WhyChooseUs = () => {
   return (
     <section className="py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]">
         {/* Title */}
         <h2 className="text-3xl font-semibold text-center text-gray-800 mb-8">
           Why Choose Us?

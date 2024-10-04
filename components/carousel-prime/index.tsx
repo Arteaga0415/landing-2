@@ -18,8 +18,8 @@ export default function VerticalCarousel () {
 
     const successStoriesTemplate = useCallback((successStories: SuccessStories) => {
         return (
-            <div className='flex flex-row gap-5 md:gap-10 items-center m-5 p-5 justify-center'>
-                <div className='w-[420px] h-[420px]'>
+            <div className='flex flex-row gap-5 md:gap-10 items-center m-5 p-10 justify-center rounded-lg bg-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]'>
+                <div className='w-[500px] h-[420px]'>
                     <img className='rounded-lg w-full h-full object-cover' src={successStories.img} alt='Success Stories Image'/>
                 </div>
                 <div className='flex flex-col md:gap-5'>
@@ -41,7 +41,7 @@ export default function VerticalCarousel () {
     return (
         <>
             <div className='flex justify-center m-20 hidden md:flex'>
-                <Carousel value={stories} numVisible={1} numScroll={1} orientation="vertical" verticalViewPortHeight="500px" itemTemplate={successStoriesTemplate} />
+                <Carousel value={stories} numVisible={1} numScroll={1} orientation="vertical" verticalViewPortHeight="550px" itemTemplate={successStoriesTemplate} />
             </div >
             <div className='my-20 md:hidden'>
                 <MobileCarousel />
