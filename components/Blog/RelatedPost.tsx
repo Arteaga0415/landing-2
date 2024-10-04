@@ -8,11 +8,11 @@ const RelatedBlog = async () => {
     <>
       <div className="animate_top rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
         <h4 className="mb-7.5 text-2xl font-semibold text-black dark:text-white">
-          Noticias
+          Blogs
         </h4>
 
         <div className="flex flex-col justify-center">
-          {BlogData.slice(0,3).map((blog, key) => (
+          {BlogData.slice(0,9).map((blog, key) => (
             <div
               className="mb-7.5 flex flex-wrap gap-4 xl:flex-nowrap 2xl:gap-6"
               key={key}
@@ -22,12 +22,12 @@ const RelatedBlog = async () => {
                   <Image fill src={blog.mainImage} alt="Blog" className="rounded-md"/>
                 </Link>
               </div>
-              <h5 className="w-1/2 text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
+              <h4 className="w-1/2 text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
                 <Link href={`/blog/${blog._id}?id=${blog._id}`}>
                   {" "}
                   {blog.title.slice(0, 40)}...
                 </Link>
-              </h5>
+              </h4>
             </div>
           ))}
         </div>
