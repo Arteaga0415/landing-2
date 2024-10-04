@@ -4,7 +4,7 @@ import { Condition } from "@/types/condition"
 
 export default function BigConditions ({ condition }: { condition: Condition }) {
     return (
-        <div className="lg:w-2/3">
+        <div className="w-full">
             <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
                 <div className="mb-10 w-full overflow-hidden ">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
