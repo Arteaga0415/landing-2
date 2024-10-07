@@ -18,7 +18,7 @@ export function Video() {
       <div className="relative overflow-hidden">
         {!isAndroid ? 
           <video className="w-full object-cover" loop autoPlay playsInline muted>
-            <source src="/videos/landing-2.mp4" type="video/mp4" />
+            <source src="/videos/landing-1.mp4" type="video/mp4" />
             <track
               src="/path/to/captions.vtt"
               kind="subtitles"
