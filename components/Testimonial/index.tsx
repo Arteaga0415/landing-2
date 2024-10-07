@@ -22,7 +22,7 @@ const Testimonial = () => {
               headerInfo={{
                 title: `TESTIMONIALS`,
                 subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                description: `Some of our satisfied clients`,
               }}
             />
           </div>
@@ -54,7 +54,7 @@ const Testimonial = () => {
               spaceBetween={50}
               slidesPerView={2}
               autoplay={{
-                delay: 2500,
+                delay: 8500,
                 disableOnInteraction: false,
               }}
               pagination={{
