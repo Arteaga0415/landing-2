@@ -25,7 +25,7 @@ const menuData: Menu[] = [
     id: 4,
     title: "Contact",
     newTab: false,
-    path: "/support",
+    path: "#support",
   },
 ];
 
