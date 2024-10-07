@@ -31,7 +31,7 @@ export default function Home() {
       {/* <About /> */}
       <Testimonial />
       <Contact />
-      <EmbeddedForm />
+      {/* <EmbeddedForm /> */}
     </main>
   );
 }
