@@ -29,9 +29,9 @@ export default function Home() {
       <WhyChooseUs />
       <VerticalCarousel />
       {/* <About /> */}
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Contact />
-      {/* <EmbeddedForm /> */}
+      <EmbeddedForm />
     </main>
   );
 }

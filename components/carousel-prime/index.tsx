@@ -39,7 +39,7 @@ export default function VerticalCarousel () {
     }, []);
 
     return (
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center text-center'>
             <h1 className='mb-5'>Customer Testimonials</h1>
             <div className='flex justify-center mb-20 hidden md:flex'>
                 <Carousel value={stories} numVisible={1} numScroll={1} orientation="vertical" verticalViewPortHeight="550px" itemTemplate={successStoriesTemplate} autoplayInterval={10000} />

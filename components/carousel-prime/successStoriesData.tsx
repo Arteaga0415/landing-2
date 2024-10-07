@@ -7,7 +7,7 @@ const successStories = [
     },
     { 
         img: '/images/successStories1.jpg', 
-        description: 'My wife was diagnosed with stage I breast cancer and I had an investment property that required maintenance, management and mortgage payments which I had no way of up-keeping. Single Family cash offer was transparent, straightforward and purchased my property like they said they would.', 
+        description: 'My wife was diagnosed with stage I breast cancer and I had an investment property that required maintenance, management and mortgage payments. Single Family cash offer was transparent, straightforward and purchased my property.', 
         name: 'Ken', 
         location: 'Houston, Texas'
     },
