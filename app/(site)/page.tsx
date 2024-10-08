@@ -11,6 +11,7 @@ import Conditions from "@/components/Conditions";
 import WhyChooseUs from "@/components/choose-us";
 import VerticalCarousel from "@/components/carousel-prime";
 import EmbeddedForm from "@/components/Form";
+import ContactForm from "@/components/Contact/contact-form";
 
 export const metadata: Metadata = {
   title: "Single Family Services",
@@ -27,7 +28,7 @@ export default function Home() {
       <Feature />
       <Conditions />
       <WhyChooseUs />
-      <VerticalCarousel />
+      {/* <VerticalCarousel /> */}
       {/* <About /> */}
       <Testimonial />
       <Contact />

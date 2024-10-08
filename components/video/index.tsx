@@ -36,12 +36,18 @@ export function Video() {
           alt="Imagen"
         /> 
         }
-        <div className="hidden md:flex absolute top-0 left-10 m-4 w-2/5 bg-opacity-50 md:px-2 md:py-8 rounded">
-          <h1 className="text-lg md:text-6xl font-bold text-white">
-            Sell your house today, no commissions or fees. Contact us and get your CashOffer.
-          </h1>
+        <div className="hidden md:flex md:flex-col absolute top-20 left-10 m-4 w-2/5 bg-opacity-50 md:px-2 md:py-8 rounded">
+          <h2 className="text-lg md:text-6xl font-semi-bold text-white">
+            Sell your house today
+          </h2>
+          <h2 className="font-semi-bold text-white">
+            <strong>No</strong> commissions <strong>No</strong> fees
+          </h2>
+          <h2 className="font-semi-bold text-white">
+            Get a Cash Offer from a trusted Home Buyer.
+          </h2>
         </div>
-        <div className="flex justify-end absolute top-0 right-0 md:right-40 m-4 w-full md:w-1/2 bg-opacity-50 md:py-4 rounded">
+        <div className="flex justify-end absolute top-20 right-0 md:right-40 m-4 w-full md:w-1/2 bg-opacity-50 md:py-4 rounded">
           <ContactForm />
         </div>
       </div>
