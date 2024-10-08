@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import ContactForm from "../Contact/contact-form";
 
 export function Video() {
   const [isAndroid, setIsAndroid] = useState(false);
@@ -35,13 +36,13 @@ export function Video() {
           alt="Imagen"
         /> 
         }
-        <div className="absolute top-0 left-0 m-4 w-2/5 bg-opacity-50 md:px-2 md:py-8 rounded">
-          <h1 className="text-sm md:text-2xl font-semibold md:font-bold text-white">
-            We Buy Properties In ANY Condition! Receive a Quick, Simple, and Straightforward Offer Instantly!
+        <div className="hidden md:flex absolute top-0 left-10 m-4 w-2/5 bg-opacity-50 md:px-2 md:py-8 rounded">
+          <h1 className="text-lg md:text-6xl font-bold text-white">
+            Sell your house today, no commissions or fees. Contact us and get your CashOffer.
           </h1>
         </div>
-        <div className="flex justify-end absolute top-0 right-0 m-4 w-1/2 bg-opacity-50 md:py-4 rounded">
-          <h1 className="text-lg md:text-6xl font-bold text-white">Single Family Services</h1>
+        <div className="flex justify-end absolute top-0 right-0 md:right-40 m-4 w-full md:w-1/2 bg-opacity-50 md:py-4 rounded">
+          <ContactForm />
         </div>
       </div>
     </section>
