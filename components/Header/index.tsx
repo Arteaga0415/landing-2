@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import SocialMedia from "../social-media";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -16,7 +17,7 @@ const Header = () => {
 
   // Sticky menu
   const handleStickyMenu = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 1) {
       setStickyMenu(true);
     } else {
       setStickyMenu(false);
@@ -29,12 +30,16 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-7 ${
-        stickyMenu
-          ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
-          : ""
-      }`}
+      className={`fixed left-0 top-0 z-99999 w-full h-auto py-3 bg-white shadow-xl transition duration-100 dark:bg-black`}
     >
+      <div className="flex flex-row justify-around items-center bg-green2 p-2.5">
+        <h4 className="text-lg">Get your Cash Offer</h4>
+        <SocialMedia />
+        <div className="flex flex-row gap-5">
+          <h4>Contact Us </h4>
+          <h4>+1 866 936-7735</h4>
+        </div>
+      </div>
       <div className="relative mx-auto max-w-c-1790 items-center justify-center px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/" className="-ml-10 md:ml-0">
