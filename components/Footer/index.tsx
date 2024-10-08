@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import SocialMedia from "../social-media";
 
 const Footer = () => {
   return (
@@ -265,6 +266,27 @@ const Footer = () => {
                 </li>
               </ul>
             </motion.div>
+            
+            <motion.div
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  y: -20,
+                },
+
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                },
+              }}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ duration: 1, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="animate_top"
+            >
+              <SocialMedia />
+            </motion.div>
 
             <motion.div
               variants={{
@@ -289,99 +311,6 @@ const Footer = () => {
               </p>
             </motion.div>
 
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_top"
-            >
-              <ul className="flex items-center gap-5">
-                <li>
-                  <a href="https://www.facebook.com/people/Single-Family-Services/100087976694027/" aria-label="social icon">
-                    <svg
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clipPath="url(#clip0_48_1499)">
-                        <path
-                          d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
-                          fill=""
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_48_1499">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/singlefamilyservices/?igsh=ZG5tbjY4aHgyZ2wz" aria-label="social icon">
-                    <svg
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clipPath="url(#clip0_48_1505)">
-                        <path 
-                          d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.312 3.608 1.287.975.975 1.225 2.241 1.287 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.312 2.633-1.287 3.608-.975.975-2.241 1.225-3.608 1.287-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.312-3.608-1.287-.975-.975-1.225-2.241-1.287-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.849C2.295 5.785 2.545 4.518 3.52 3.543 4.495 2.568 5.761 2.318 7.127 2.256c1.265-.058 1.645-.07 4.849-.07M12 0C8.741 0 8.332.015 7.053.072 5.775.129 4.574.36 3.558 1.376 2.543 2.391 2.312 3.592 2.255 4.871.015 5.745 0 8.241 0 12s.015 6.255.072 7.535c.057 1.28.288 2.481 1.303 3.496s2.216 1.246 3.496 1.303c1.28.057 2.781.072 7.535.072s6.255-.015 7.535-.072c1.28-.057 2.481-.288 3.496-1.303s1.246-2.216 1.303-3.496c.057-1.28.072-2.781.072-7.535s-.015-6.255-.072-7.535c-.057-1.28-.288-2.481-1.303-3.496S19.791.129 18.511.072C17.231.015 16.731 0 12 0zm0 5.838A6.162 6.162 0 0 0 5.838 12 6.162 6.162 0 0 0 12 18.162 6.162 6.162 0 0 0 18.162 12 6.162 6.162 0 0 0 12 5.838zm0 10.162A4.004 4.004 0 1 1 12 8a4.004 4.004 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 1 2.88 0 1.44 1.44 0 0 1-2.88 0z" 
-                          fill=""
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_48_1505">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.tiktok.com/@sfcoservices?_t=8keKDgICBwE&_r=1" aria-label="social icon">
-                    <svg
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clipPath="url(#clip0_48_1505)">
-                        <path 
-                          d="M12.934 0h2.746c.13 1.226.701 2.236 1.681 2.958.708.531 1.519.844 2.392.942v2.72a7.905 7.905 0 0 1-3.89-.98v8.93c0 3.376-2.651 6.501-6.432 6.431-3.023-.051-5.367-2.527-5.387-5.511 0-.135-.002-.271 0-.406.033-3.036 2.285-5.52 5.296-5.873a5.787 5.787 0 0 1 1.36.014v2.745c-.446-.097-.908-.094-1.36.012-1.52.34-2.473 1.527-2.463 3.106.007.963.506 1.917 1.348 2.465 1.499.925 3.476-.068 3.475-1.832V3.277c0-.438.012-.875-.014-1.311-.022-.412-.014-.824-.014-1.236z"
-                          fill=""
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_48_1505">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </motion.div>
           </div>
           {/* <!-- Footer Bottom --> */}
         </div>
