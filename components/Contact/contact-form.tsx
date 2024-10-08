@@ -73,7 +73,7 @@ const ContactForm = () => {
         className="animate_top w-full h-full lg:w-4/5 rounded-lg bg-white p-2.5 md:p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:p-15"
       >
         <h2 className="mb-5 md:mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-          Send Message
+          Get my fair Cash Offer
         </h2>
 
         <form
@@ -150,10 +150,10 @@ const ContactForm = () => {
 
           <div className="flex flex-wrap gap-4 xl:justify-between ">
             <button
-              aria-label="send message"
+              aria-label="cash-offer"
               className="inline-flex items-center gap-2.5 rounded-full px-6 py-3 font-medium text-white duration-300 ease-in-out bg-green2 hover:bg-primaryho dark:bg-green2"
             >
-              
+              Get Cash Offer
               <svg
                 className="fill-white"
                 width="14"
