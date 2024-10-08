@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
           {/* Left Side: Image */}
           <div className="flex justify-center w-1/2 hidden md:flex">
             <Image
-              src="/images/couple.png" // Add the correct image path here
+              src="/images/couple.png"
               alt="Why Choose Us Image"
               width={500}
               height={500}

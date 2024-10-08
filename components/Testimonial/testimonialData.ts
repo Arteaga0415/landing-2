@@ -25,7 +25,7 @@ export const testimonialData: Testimonial[] = [
     id: 3,
     name: "Maria",
     designation: "Dallas, Texas",
-    image: image1,
+    image: image3,
     content:
       "After my husband passed, I didn’t want to be a landlord anymore. I’d rather sit back and enjoy nature. Single Family cash offer was amazing and made the whole selling process simple during a difficult time in my life.",
   },
@@ -33,7 +33,7 @@ export const testimonialData: Testimonial[] = [
     id: 4,
     name: "Isaac",
     designation: "Dallas Texas",
-    image: image2,
+    image: image4,
     content:
       "Everything was done with ease, transparency and fast! I was pleased with the price we all agreed on. They were very polite through out the entire process. I recommend single family cash offer to all of my friends!",
   },
