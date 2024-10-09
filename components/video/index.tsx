@@ -18,7 +18,7 @@ export function Video() {
     <section className="pt-30">
       <div className="relative overflow-hidden">
         {!isAndroid ? 
-          <video className="w-full object-cover" loop autoPlay playsInline muted>
+          <video className="w-full h-[680px] lg:h-auto object-cover" loop autoPlay playsInline muted>
             <source src="/videos/landing-1.mp4" type="video/mp4" />
             <track
               src="/path/to/captions.vtt"
@@ -50,8 +50,21 @@ export function Video() {
             Get a Cash Offer from a trusted Home Buyer.
           </h2>
         </div>
-        <div className="flex justify-end absolute top-20 right-0 md:right-40 m-4 w-full md:w-1/2 bg-opacity-50 md:py-4 rounded">
-          <ContactForm />
+        <div className="flex justify-end absolute top-5 right-0 md:top-20 m-4 w-auto md:w-1/2 bg-opacity-50 md:py-4 rounded">
+          <div className="flex flex-col w-full">
+            <div className="flex flex-col md:hidden m-4 rounded">
+              <h2 className="text-lg md:text-6xl font-semi-bold text-white">
+                Sell your house today
+              </h2>
+              <h2 className="font-semi-bold text-white">
+                <strong>No</strong> commissions <strong>No</strong> fees
+              </h2>
+              <h2 className="font-semi-bold text-white">
+                Get a Cash Offer from a trusted Home Buyer.
+              </h2>
+            </div>
+            <ContactForm />
+          </div>
         </div>
       </div>
     </section>

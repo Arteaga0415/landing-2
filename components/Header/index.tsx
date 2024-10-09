@@ -35,16 +35,16 @@ const Header = () => {
       <div className="flex flex-row justify-around items-center bg-blue-400 opacity-90 p-2.5">
         <h4 className="w-80"></h4>
         <SocialMedia />
-        <div className="flex flex-row gap-5">
-          <button className="inline-flex items-center gap-2.5 rounded-full px-3 py-2 font-medium bg-black text-white cursor-text">
+        <div className="w-80 lg:w-96 flex flex-row gap-5">
+          <button className="hidden md:inline-flex items-center gap-2.5 rounded-full px-3 py-2 font-medium bg-black text-white cursor-text">
             <h4>Get your Cash Offer Today!</h4>
             <h4>+1 866 936-7735</h4>
           </button>
         </div>
       </div>
-      <div className="relative mx-auto max-w-c-1790 items-center justify-center px-4 py-5 md:px-8 xl:flex 2xl:px-0">
-        <div className="flex w-4/5 items-center justify-between gap-10 xl:w-2/5">
-          <a href="/" className="-ml-10 md:ml-0">
+      <div className="relative mx-auto w-full items-center justify-between px-4 py-5 md:px-8 xl:flex 2xl:px-0">
+        <div className="flex w-full items-center justify-center gap-10 xl:w-2/5">
+          <a href="/" className="-ml-5 md:ml-0">
             <Image
               src="/logos/logo.png"
               alt="logo"
