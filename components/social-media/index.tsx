@@ -9,13 +9,13 @@ export default function SocialMedia () {
   return (
     <div className="flex flex-row gap-7.5">
       <Link href={igLink}>
-        <FaInstagram className="transition-transform duration-200 hover:scale-110 hover:text-red2" size={32}/>
+        <FaInstagram className="transition-transform duration-200 hover:scale-110" size={32}/>
       </Link>
       <Link href={fbLink}>
-        <FaFacebook className="transition-transform duration-200 hover:scale-110 hover:text-red2" size={32}/>
+        <FaFacebook className="transition-transform duration-200 hover:scale-110" size={32}/>
       </Link>
       <Link href={tiktokLink}>
-        <FaTiktok className="transition-transform duration-200 hover:scale-110 hover:text-red2" size={32}/>
+        <FaTiktok className="transition-transform duration-200 hover:scale-110" size={32}/>
       </Link>
     </div>
   )
