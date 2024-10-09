@@ -14,12 +14,12 @@ const menuData: Menu[] = [
     path: "#conditions",
   },
 
-  {
-    id: 2.2,
-    title: "Blog",
-    newTab: false,
-    path: "/blog",
-  },
+  // {
+  //   id: 2.2,
+  //   title: "Blog",
+  //   newTab: false,
+  //   path: "/blog",
+  // },
 
   {
     id: 4,

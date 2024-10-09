@@ -30,18 +30,20 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full h-auto py-3 bg-white shadow-xl transition duration-100 dark:bg-black`}
+      className={`fixed left-0 top-0 z-99999 w-full bg-white shadow-xl transition duration-100 dark:bg-black`}
     >
-      <div className="flex flex-row justify-around items-center bg-green2 p-2.5">
-        <h4 className="text-lg">Get your Cash Offer</h4>
+      <div className="flex flex-row justify-around items-center bg-blue-400 opacity-90 p-2.5">
+        <h4 className="w-80"></h4>
         <SocialMedia />
         <div className="flex flex-row gap-5">
-          <h4>Contact Us </h4>
-          <h4>+1 866 936-7735</h4>
+          <button className="inline-flex items-center gap-2.5 rounded-full px-3 py-2 font-medium bg-black text-white cursor-text">
+            <h4>Get your Cash Offer Today!</h4>
+            <h4>+1 866 936-7735</h4>
+          </button>
         </div>
       </div>
-      <div className="relative mx-auto max-w-c-1790 items-center justify-center px-4 md:px-8 xl:flex 2xl:px-0">
-        <div className="flex w-full items-center justify-between xl:w-1/4">
+      <div className="relative mx-auto max-w-c-1790 items-center justify-center px-4 py-5 md:px-8 xl:flex 2xl:px-0">
+        <div className="flex w-4/5 items-center justify-between gap-10 xl:w-2/5">
           <a href="/" className="-ml-10 md:ml-0">
             <Image
               src="/logos/logo.png"
@@ -148,7 +150,9 @@ const Header = () => {
                           : "hover:text-primary"
                       }
                     >
-                      {menuItem.title}
+                      <h4>
+                        {menuItem.title}
+                      </h4>
                     </Link>
                   )}
                 </li>
@@ -158,20 +162,6 @@ const Header = () => {
 
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <ThemeToggler />
-
-            {/* <Link
-              href="https://github.com/NextJSTemplates/solid-nextjs"
-              className="text-regular font-medium text-waterloo hover:text-primary"
-            >
-              GitHub Repo 🌟
-            </Link>
-
-            <Link
-              href="https://nextjstemplates.com/templates/solid"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
-            >
-              Get Pro 🔥
-            </Link> */}
           </div>
         </div>
       </div>
