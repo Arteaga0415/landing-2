@@ -36,7 +36,10 @@ export function Video() {
           alt="Imagen"
         /> 
         }
-        <div className="hidden md:flex md:flex-col absolute top-20 left-10 m-4 w-2/5 bg-opacity-50 md:px-2 md:py-8 rounded">
+        <div className="absolute inset-0 bg-blue-400 opacity-30 pointer-events-none">
+          
+        </div>
+        <div className="hidden md:flex md:flex-col absolute top-20 left-10 m-4 w-2/5 md:px-2 md:py-8 rounded">
           <h2 className="text-lg md:text-6xl font-semi-bold text-white">
             Sell your house today
           </h2>

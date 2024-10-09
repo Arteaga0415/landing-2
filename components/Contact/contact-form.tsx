@@ -1,4 +1,5 @@
 "use client";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
@@ -72,8 +73,8 @@ const ContactForm = () => {
         viewport={{ once: true }}
         className="animate_top w-full h-full lg:w-4/5 rounded-lg bg-white p-2.5 md:p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:p-15"
       >
-        <h2 className="mb-5 md:mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-          Get my fair Cash Offer
+        <h2 className="hidden md:flex mb-5 md:mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+          Get Cash Offer
         </h2>
 
         <form
