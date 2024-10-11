@@ -41,10 +41,13 @@ export function Video() {
         </div>
         <div className="hidden md:flex md:flex-col absolute top-20 left-10 m-4 w-2/5 md:px-2 md:py-8 rounded">
           <h2 className="md:text-6xl font-semi-bold text-white">
+            Welcome to <strong>Single Family Services</strong>
+          </h2>
+          <h2 className="font-semi-bold text-white">
             Sell your house today!
           </h2>
           <h2 className="font-semi-bold text-white">
-            <strong>No</strong> commissions <strong>No</strong> fees
+            <strong>No</strong> commissions. <strong>No</strong> fees.
           </h2>
           <h2 className="font-semi-bold text-white">
             Get a Cash Offer from a trusted Home Buyer.

@@ -24,7 +24,7 @@ export default function Home() {
       <Suspense fallback={<VideoSkeleton/>} >
         <Video />
       </Suspense>
-      <Hero />
+      {/* <Hero /> */}
       <Feature />
       <Conditions />
       <WhyChooseUs />
