@@ -77,7 +77,7 @@ const ContactForm = () => {
           Get Fair Cash Offer today!
         </h2>
         <h4 className="flex text-lg mb-5 text-black dark:text-white">
-          At Single Family Services we want to make things easier for you, we buy your house in any condition.
+          At Single Family Services we want to make things easier for you, we buy your house in any condition and we pay you cash.
         </h4>
 
         <form

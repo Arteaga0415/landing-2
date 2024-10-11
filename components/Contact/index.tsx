@@ -96,9 +96,9 @@ const Contact = () => {
                 Get Fair Cash Offer today!
               </h2>
               <h4 className="flex text-lg mb-10 text-black dark:text-white">
-                At Single Family Services we want to make things easier for you, we buy your house in any condition. 
+                At Single Family Services we want to make things easier for you, we buy your house in any condition and we pay you cash.
                 Request your no-obligation cash offer today by calling us directly or filling out our short form. 
-                We specialize in a Simple, Stress-Free, As-Is Home Sale.
+                We specialize in a Simple, Stress-Free, As-Is Condition Homes for Sale.
               </h4>
 
               <form
