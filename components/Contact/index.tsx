@@ -92,9 +92,14 @@ const Contact = () => {
               viewport={{ once: true }}
               className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
-              <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Get Fair Cash Offer
+              <h2 className="mb-5 text-3xl font-semibold text-green2 dark:text-white xl:text-sectiontitle2">
+                Get Fair Cash Offer today!
               </h2>
+              <h4 className="flex text-lg mb-10 text-black dark:text-white">
+                At Single Family Services we want to make things easier for you, we buy your house in any condition. 
+                Request your no-obligation cash offer today by calling us directly or filling out our short form. 
+                We specialize in a Simple, Stress-Free, As-Is Home Sale.
+              </h4>
 
               <form
               action=""

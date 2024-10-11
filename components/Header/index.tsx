@@ -33,11 +33,9 @@ const Header = () => {
       className={`fixed left-0 top-0 z-99999 w-full bg-white shadow-xl transition duration-100 dark:bg-black`}
     >
       <div className="flex flex-row justify-around items-center bg-blue-400 opacity-90 p-2.5">
-        <h4 className="w-80"></h4>
-        <SocialMedia />
-        <div className="w-80 lg:w-96 flex flex-row gap-5">
+        <div className="w-80 lg:w-96 flex flex-row justify-center items-center gap-5">
+          <h4 className="text-white">Get your Cash Offer Today!</h4>
           <button className="hidden md:inline-flex items-center gap-2.5 rounded-full px-3 py-2 font-medium bg-black text-white cursor-text">
-            <h4>Get your Cash Offer Today!</h4>
             <h4>+1 866 936-7735</h4>
           </button>
         </div>
@@ -157,6 +155,13 @@ const Header = () => {
                   )}
                 </li>
               ))}
+              <li>
+                <Link href={'#support'}>
+                  <button className="text-white bg-green2 rounded-xl p-3.5">
+                    Sell Your House
+                  </button>
+                </Link>
+              </li>
             </ul>
           </nav>
 

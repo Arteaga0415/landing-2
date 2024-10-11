@@ -73,9 +73,12 @@ const ContactForm = () => {
         viewport={{ once: true }}
         className="animate_top w-full h-full lg:w-4/5 rounded-lg bg-white p-2.5 md:p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:p-15"
       >
-        <h2 className="flex mb-5 md:mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-          Get Cash Offer
+        <h2 className="flex mb-5 text-3xl font-semibold text-green2 dark:text-white xl:text-sectiontitle2">
+          Get Fair Cash Offer today!
         </h2>
+        <h4 className="flex text-lg mb-5 text-black dark:text-white">
+          At Single Family Services we want to make things easier for you, we buy your house in any condition.
+        </h4>
 
         <form
           action=""
